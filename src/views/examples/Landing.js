@@ -69,7 +69,7 @@ class Landing extends React.Component {
                 <span />
                 <span />
               </div>
-              <Container className="py-lg-md d-flex">
+              {/* <Container className="py-lg-md d-flex">
                 <div className="col px-0">
                   <Row>
                     <Col lg="6">
@@ -109,7 +109,7 @@ class Landing extends React.Component {
                     </Col>
                   </Row>
                 </div>
-              </Container>
+              </Container> */}
               {/* SVG separator */}
               <div className="separator separator-bottom separator-skew">
                 <svg
@@ -129,7 +129,7 @@ class Landing extends React.Component {
             </section>
             {/* 1st Hero Variation */}
           </div>
-          <section className="section section-lg pt-lg-0 mt--200">
+          <section className="section section-lg pt-lg-0 mt--100">
             <Container>
               <Row className="justify-content-center">
                 <Col lg="12">
@@ -250,76 +250,59 @@ class Landing extends React.Component {
           <section className="section section-lg">
             <Container>
               <Row className="row-grid align-items-center">
-                <Col className="order-md-2" md="6">
+                <Col className="order-md-2" md="5">
                   <img
                     alt="..."
                     className="img-fluid floating"
                     src={require("assets/img/theme/promo-1.png")}
                   />
                 </Col>
-                <Col className="order-md-1" md="6">
-                  <div className="pr-md-5">
-                    <div className="icon icon-lg icon-shape icon-shape-success shadow rounded-circle mb-5">
-                      <i className="ni ni-settings-gear-65" />
-                    </div>
-                    <h3>Awesome features</h3>
-                    <p>
-                      The kit comes with three pre-built pages to help you get
-                      started faster. You can change the text and images and
-                      you're good to go.
-                    </p>
-                    <ul className="list-unstyled mt-5">
-                      <li className="py-2">
-                        <div className="d-flex align-items-center">
-                          <div>
-                            <Badge
-                              className="badge-circle mr-3"
-                              color="success"
-                            >
-                              <i className="ni ni-settings-gear-65" />
-                            </Badge>
-                          </div>
-                          <div>
-                            <h6 className="mb-0">
-                              Carefully crafted components
-                            </h6>
-                          </div>
-                        </div>
-                      </li>
-                      <li className="py-2">
-                        <div className="d-flex align-items-center">
-                          <div>
-                            <Badge
-                              className="badge-circle mr-3"
-                              color="success"
-                            >
-                              <i className="ni ni-html5" />
-                            </Badge>
-                          </div>
-                          <div>
-                            <h6 className="mb-0">Amazing page examples</h6>
-                          </div>
-                        </div>
-                      </li>
-                      <li className="py-2">
-                        <div className="d-flex align-items-center">
-                          <div>
-                            <Badge
-                              className="badge-circle mr-3"
-                              color="success"
-                            >
-                              <i className="ni ni-satisfied" />
-                            </Badge>
-                          </div>
-                          <div>
-                            <h6 className="mb-0">
-                              Super friendly support team
-                            </h6>
-                          </div>
-                        </div>
-                      </li>
-                    </ul>
-                  </div>
+                <Col className="order-md-1" md="7">
+            
+                  
+                 
+                  <Col sm="12">
+            <h3 className="heading" style={{}}>{'\u2022'}{" "}
+            Exchange Services with real-time finance
+            </h3>
+            
+
+              <h3 className="heading" style={{}}>
+              {'\u2022'}{" "}Enabling micro-payments! Manage salaries, remittances, subscriptions, etc. and handle cashflows efficiently with streamyourpay protocol
+            </h3>
+         
+              <h3 className="heading" style={{marginBottom:'-25px'}}>
+              {'\u2022'}{" "} Two or more sub features
+            </h3>
+            <p className="lead text-muted" style={{fontSize:'16px',marginTop:'30px'}}>
+            Payment every minute              </p>
+              <p className="lead text-muted" style={{fontSize:'16px',marginTop:'-5px'}}>
+              Streamyourpay believes exchange of value & service should be function of time since time is money. You see your earnings increasing in real-time in the SYP wallet. After a one-time deposit, our smart contracts will start "streaming" the money towards the payees, without you lifting a finger again.
+              </p>
+
+              <h3 className="heading" style={{marginBottom:'-20px'}}>
+              {'\u2022'}{" "} Features
+            </h3>
+            <p className="lead text-muted" style={{fontSize:'16px'}}>
+            <small className="text-uppercase text-muted font-weight-bold">
+            On-Chain 
+            </small>
+            {" "}Transaction is updated on-chain at the time of withdraw request, avoiding transaction fess for each micro streams.
+              </p>
+              <p className="lead text-muted" style={{fontSize:'16px',marginTop:'-5px'}}>
+              <small className="text-uppercase text-muted font-weight-bold">
+              50+ digital assets to transact with
+            </small>
+               {" "}Streams can easily be created with either stablecoins like DAI, USDC, etc. or digital currencies like ETH, SOL, BTC, etc.
+              </p>
+              <p className="lead text-muted" style={{fontSize:'16px',marginTop:'-5px'}}>
+              <small className="text-uppercase text-muted font-weight-bold">
+               Low Transaction fees
+            </small>
+            {" "}It is built on solana blockchain. Hence, micro-payments can be enabled because of low transaction cost.
+              </p>
+          </Col>
+                  {/* </div> */}
                 </Col>
               </Row>
             </Container>
