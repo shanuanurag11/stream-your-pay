@@ -129,125 +129,8 @@ class Landing extends React.Component {
             </section>
             {/* 1st Hero Variation */}
           </div>
-          <section className="section section-lg pt-lg-0 mt--100">
-            <Container>
-              <Row className="justify-content-center">
-                <Col lg="12">
-                  <Row className="row-grid">
-                    <Col lg="4">
-                      <Card className="card-lift--hover shadow border-0">
-                        <CardBody className="py-5">
-                          <div className="icon icon-shape icon-shape-primary rounded-circle mb-4">
-                            <i className="ni ni-check-bold" />
-                          </div>
-                          <h6 className="text-primary text-uppercase">
-                            Download Argon
-                          </h6>
-                          <p className="description mt-3">
-                            Argon is a great free UI package based on Bootstrap
-                            4 that includes the most important components and
-                            features.
-                          </p>
-                          <div>
-                            <Badge color="primary" pill className="mr-1">
-                              design
-                            </Badge>
-                            <Badge color="primary" pill className="mr-1">
-                              system
-                            </Badge>
-                            <Badge color="primary" pill className="mr-1">
-                              creative
-                            </Badge>
-                          </div>
-                          <Button
-                            className="mt-4"
-                            color="primary"
-                            href="#pablo"
-                            onClick={e => e.preventDefault()}
-                          >
-                            Learn more
-                          </Button>
-                        </CardBody>
-                      </Card>
-                    </Col>
-                    <Col lg="4">
-                      <Card className="card-lift--hover shadow border-0">
-                        <CardBody className="py-5">
-                          <div className="icon icon-shape icon-shape-success rounded-circle mb-4">
-                            <i className="ni ni-istanbul" />
-                          </div>
-                          <h6 className="text-success text-uppercase">
-                            Build Something
-                          </h6>
-                          <p className="description mt-3">
-                            Argon is a great free UI package based on Bootstrap
-                            4 that includes the most important components and
-                            features.
-                          </p>
-                          <div>
-                            <Badge color="success" pill className="mr-1">
-                              business
-                            </Badge>
-                            <Badge color="success" pill className="mr-1">
-                              vision
-                            </Badge>
-                            <Badge color="success" pill className="mr-1">
-                              success
-                            </Badge>
-                          </div>
-                          <Button
-                            className="mt-4"
-                            color="success"
-                            href="#pablo"
-                            onClick={e => e.preventDefault()}
-                          >
-                            Learn more
-                          </Button>
-                        </CardBody>
-                      </Card>
-                    </Col>
-                    <Col lg="4">
-                      <Card className="card-lift--hover shadow border-0">
-                        <CardBody className="py-5">
-                          <div className="icon icon-shape icon-shape-warning rounded-circle mb-4">
-                            <i className="ni ni-planet" />
-                          </div>
-                          <h6 className="text-warning text-uppercase">
-                            Prepare Launch
-                          </h6>
-                          <p className="description mt-3">
-                            Argon is a great free UI package based on Bootstrap
-                            4 that includes the most important components and
-                            features.
-                          </p>
-                          <div>
-                            <Badge color="warning" pill className="mr-1">
-                              marketing
-                            </Badge>
-                            <Badge color="warning" pill className="mr-1">
-                              product
-                            </Badge>
-                            <Badge color="warning" pill className="mr-1">
-                              launch
-                            </Badge>
-                          </div>
-                          <Button
-                            className="mt-4"
-                            color="warning"
-                            href="#pablo"
-                            onClick={e => e.preventDefault()}
-                          >
-                            Learn more
-                          </Button>
-                        </CardBody>
-                      </Card>
-                    </Col>
-                  </Row>
-                </Col>
-              </Row>
-            </Container>
-          </section>
-          <section className="section section-lg">
+        
+          <section className="section section-lg" style={{marginTop:"-100px"}}>
             <Container>
               <Row className="row-grid align-items-center">
                 <Col className="order-md-2" md="5">
@@ -303,6 +186,157 @@ class Landing extends React.Component {
               </p>
           </Col>
                   {/* </div> */}
+                </Col>
+              </Row>
+            </Container>
+          </section>
+          <Col lg="12">
+        
+            <h2 className="display-3" style={{textAlign:'center',marginBottom:"50px",marginTop:"-50px"}}>         BRIEF ABOUT PROTOCOL</h2>
+          </Col>
+          <section className="section section-lg pt-lg-0 ">
+            <Container>
+              <Row className="justify-content-center">
+                <Col lg="12">
+                  <Row className="row-grid">
+                    <Col lg="4">
+                      <Card className="card-lift--hover shadow border-0">
+                        <CardBody className="py-5">
+                          <div className="icon icon-shape icon-shape-primary rounded-circle mb-4">
+                            <i className="ni ni-check-bold" />
+                          </div>
+                          <p className="description mt-3">
+                          Streammoney protocol enables power to describe cashflows in two different ways and execute them programmatically on-chain over time without interaction. 
+                          </p>
+                
+                           
+                        </CardBody>
+                      </Card>
+                    </Col>
+                    <Col lg="4">
+                      <Card className="card-lift--hover shadow border-0">
+                        <CardBody className="py-5">
+                          <div className="icon icon-shape icon-shape-success rounded-circle mb-4">
+                            <i className="ni ni-istanbul" />
+                          </div>
+                       
+                          <p className="description mt-3">
+                          Our first smart contract allows one-to-many distributions of time-based value exchange where all flows are settled based on block timestamps. 
+                          </p>
+                         
+                        </CardBody>
+                      </Card>
+                    </Col>
+                    <Col lg="4">
+                      <Card className="card-lift--hover shadow border-0">
+                        <CardBody className="py-5">
+                          <div className="icon icon-shape icon-shape-warning rounded-circle mb-4">
+                            <i className="ni ni-planet" />
+                          </div>
+                         
+                          <p className="description mt-3">
+                          Our second smart contract allows the capability to structure action-based value exchange in smaller tasks so that creator gets paid as the contract progresses.
+                          </p>
+                         
+                        </CardBody>
+                      </Card>
+                    </Col>
+                  </Row>
+                </Col>
+              </Row>
+            </Container>
+          </section>
+          <Col lg="12">
+        
+        <h2 className="display-3" style={{textAlign:'center',marginBottom:"50px",marginTop:"-50px"}}>        HOW IT WORKS?</h2>
+      </Col>
+      <section className="section section-lg pt-lg-0 ">
+            <Container>
+              <Row className="justify-content-between" style={{}}>
+                <Col lg="12">
+                  <Row className="row-grid" style={{justifyContent:'space-between'}}>
+                    <Col lg="2">
+                      <Card className="card-lift--hover shadow border-0" style={{minHeight:'350px'}}>
+                        <CardBody className="py-5">
+                          <div className="icon icon-shape icon-shape-primary rounded-circle mb-4">
+                            <i className="ni ni-check-bold" />
+                          </div>
+             <div>
+                          <small className="text-uppercase font-weight-bold text-primary">
+                          Create sollet & phantom wallet if not created else login into wallet   
+            </small>
+            </div>
+                
+                           
+                        </CardBody>
+                      </Card>
+             
+                    </Col>
+              
+                    <Col lg="3">
+                      <Card className="card-lift--hover shadow border-0" style={{minHeight:'350px'}}>
+                        <CardBody className="py-5">
+                          <div className="icon icon-shape icon-shape-success rounded-circle mb-4">
+                            <i className="ni ni-istanbul" />
+                          </div>
+                          <div>
+                          <small className="text-uppercase text-info font-weight-bold">
+                          Deposit wallet with required sum + transaction fee. Maintain SM token in wallet for transaction fees; swap for SM token on platform itself if required                
+            </small>
+            </div>
+                       
+                        
+                        </CardBody>
+                      </Card>
+                    </Col>
+                    <Col lg="2">
+                      <Card className="card-lift--hover shadow border-0" style={{minHeight:'350px'}}>
+                        <CardBody className="py-5">
+                          <div className="icon icon-shape icon-shape-warning rounded-circle mb-4">
+                            <i className="ni ni-planet" />
+                          </div>
+                          <div>
+                          <small className="text-uppercase text-danger font-weight-bold">
+                          Click on create stream {'>'} select nature of stream and fill relevant information              </small>
+            </div>
+                         
+                         
+                        </CardBody>
+                      </Card>
+                    </Col>
+                    <Col lg="2">
+                      <Card className="card-lift--hover shadow border-0" style={{minHeight:'350px'}}>
+                        <CardBody className="py-5">
+                          <div className="icon icon-shape icon-shape-warning rounded-circle mb-4">
+                            <i className="ni ni-planet" />
+                          </div>
+                          <div>
+                          <small className="text-uppercase text-warning font-weight-bold">
+                          Approve transaction for action based contract                     </small>
+            </div>
+                         
+                    
+                         
+                        </CardBody>
+                      </Card>
+                    </Col>
+                    <Col lg="2">
+                      <Card className="card-lift--hover shadow border-0" style={{minHeight:'350px'}}>
+                        <CardBody className="py-5">
+                          <div className="icon icon-shape icon-shape-warning rounded-circle mb-4">
+                            <i className="ni ni-planet" />
+                          </div>
+                          <div>
+                          <small className="text-uppercase text-success font-weight-bold">
+                          Terminate stream if need be               </small>
+            </div>
+                  
+                         
+                        </CardBody>
+                      </Card>
+                    </Col>
+                 
+                  </Row>
                 </Col>
               </Row>
             </Container>
@@ -482,192 +516,7 @@ class Landing extends React.Component {
               </svg>
             </div>
           </section>
-          <section className="section section-lg">
-            <Container>
-              <Row className="justify-content-center text-center mb-lg">
-                <Col lg="8">
-                  <h2 className="display-3">The amazing Team</h2>
-                  <p className="lead text-muted">
-                    According to the National Oceanic and Atmospheric
-                    Administration, Ted, Scambos, NSIDClead scentist, puts the
-                    potentially record maximum.
-                  </p>
-                </Col>
-              </Row>
-              <Row>
-                <Col className="mb-5 mb-lg-0" lg="3" md="6">
-                  <div className="px-4">
-                    <img
-                      alt="..."
-                      className="rounded-circle img-center img-fluid shadow shadow-lg--hover"
-                      src={require("assets/img/theme/team-1-800x800.jpg")}
-                      style={{ width: "200px" }}
-                    />
-                    <div className="pt-4 text-center">
-                      <h5 className="title">
-                        <span className="d-block mb-1">Ryan Tompson</span>
-                        <small className="h6 text-muted">Web Developer</small>
-                      </h5>
-                      <div className="mt-3">
-                        <Button
-                          className="btn-icon-only rounded-circle"
-                          color="warning"
-                          href="#pablo"
-                          onClick={e => e.preventDefault()}
-                        >
-                          <i className="fa fa-twitter" />
-                        </Button>
-                        <Button
-                          className="btn-icon-only rounded-circle ml-1"
-                          color="warning"
-                          href="#pablo"
-                          onClick={e => e.preventDefault()}
-                        >
-                          <i className="fa fa-facebook" />
-                        </Button>
-                        <Button
-                          className="btn-icon-only rounded-circle ml-1"
-                          color="warning"
-                          href="#pablo"
-                          onClick={e => e.preventDefault()}
-                        >
-                          <i className="fa fa-dribbble" />
-                        </Button>
-                      </div>
-                    </div>
-                  </div>
-                </Col>
-                <Col className="mb-5 mb-lg-0" lg="3" md="6">
-                  <div className="px-4">
-                    <img
-                      alt="..."
-                      className="rounded-circle img-center img-fluid shadow shadow-lg--hover"
-                      src={require("assets/img/theme/team-2-800x800.jpg")}
-                      style={{ width: "200px" }}
-                    />
-                    <div className="pt-4 text-center">
-                      <h5 className="title">
-                        <span className="d-block mb-1">Romina Hadid</span>
-                        <small className="h6 text-muted">
-                          Marketing Strategist
-                        </small>
-                      </h5>
-                      <div className="mt-3">
-                        <Button
-                          className="btn-icon-only rounded-circle"
-                          color="primary"
-                          href="#pablo"
-                          onClick={e => e.preventDefault()}
-                        >
-                          <i className="fa fa-twitter" />
-                        </Button>
-                        <Button
-                          className="btn-icon-only rounded-circle ml-1"
-                          color="primary"
-                          href="#pablo"
-                          onClick={e => e.preventDefault()}
-                        >
-                          <i className="fa fa-facebook" />
-                        </Button>
-                        <Button
-                          className="btn-icon-only rounded-circle ml-1"
-                          color="primary"
-                          href="#pablo"
-                          onClick={e => e.preventDefault()}
-                        >
-                          <i className="fa fa-dribbble" />
-                        </Button>
-                      </div>
-                    </div>
-                  </div>
-                </Col>
-                <Col className="mb-5 mb-lg-0" lg="3" md="6">
-                  <div className="px-4">
-                    <img
-                      alt="..."
-                      className="rounded-circle img-center img-fluid shadow shadow-lg--hover"
-                      src={require("assets/img/theme/team-3-800x800.jpg")}
-                      style={{ width: "200px" }}
-                    />
-                    <div className="pt-4 text-center">
-                      <h5 className="title">
-                        <span className="d-block mb-1">Alexander Smith</span>
-                        <small className="h6 text-muted">UI/UX Designer</small>
-                      </h5>
-                      <div className="mt-3">
-                        <Button
-                          className="btn-icon-only rounded-circle"
-                          color="info"
-                          href="#pablo"
-                          onClick={e => e.preventDefault()}
-                        >
-                          <i className="fa fa-twitter" />
-                        </Button>
-                        <Button
-                          className="btn-icon-only rounded-circle ml-1"
-                          color="info"
-                          href="#pablo"
-                          onClick={e => e.preventDefault()}
-                        >
-                          <i className="fa fa-facebook" />
-                        </Button>
-                        <Button
-                          className="btn-icon-only rounded-circle ml-1"
-                          color="info"
-                          href="#pablo"
-                          onClick={e => e.preventDefault()}
-                        >
-                          <i className="fa fa-dribbble" />
-                        </Button>
-                      </div>
-                    </div>
-                  </div>
-                </Col>
-                <Col className="mb-5 mb-lg-0" lg="3" md="6">
-                  <div className="px-4">
-                    <img
-                      alt="..."
-                      className="rounded-circle img-center img-fluid shadow shadow-lg--hover"
-                      src={require("assets/img/theme/team-4-800x800.jpg")}
-                      style={{ width: "200px" }}
-                    />
-                    <div className="pt-4 text-center">
-                      <h5 className="title">
-                        <span className="d-block mb-1">John Doe</span>
-                        <small className="h6 text-muted">Founder and CEO</small>
-                      </h5>
-                      <div className="mt-3">
-                        <Button
-                          className="btn-icon-only rounded-circle"
-                          color="success"
-                          href="#pablo"
-                          onClick={e => e.preventDefault()}
-                        >
-                          <i className="fa fa-twitter" />
-                        </Button>
-                        <Button
-                          className="btn-icon-only rounded-circle ml-1"
-                          color="success"
-                          href="#pablo"
-                          onClick={e => e.preventDefault()}
-                        >
-                          <i className="fa fa-facebook" />
-                        </Button>
-                        <Button
-                          className="btn-icon-only rounded-circle ml-1"
-                          color="success"
-                          href="#pablo"
-                          onClick={e => e.preventDefault()}
-                        >
-                          <i className="fa fa-dribbble" />
-                        </Button>
-                      </div>
-                    </div>
-                  </div>
-                </Col>
-              </Row>
-            </Container>
-          </section>
+          
           <section className="section section-lg pt-0">
             <Container>
               <Card className="bg-gradient-warning shadow-lg border-0">
