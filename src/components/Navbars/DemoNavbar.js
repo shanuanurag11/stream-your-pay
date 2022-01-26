@@ -198,13 +198,14 @@ class DemoNavbar extends React.Component {
                       id="tooltip356693867"
                       target="_blank"
                     >
-                 <i className="fa fa-twitter-square" />
+             <img    alt="..."
+                    src={require("../../assets/img/icons/discord-icon.png")}  style={{width:'20px',height:'20px'}} />
                       <span className="nav-link-inner--text d-lg-none ml-2">
-                        Instagram
+                        Discord
                       </span>
                     </NavLink>
                     <UncontrolledTooltip delay={0} target="tooltip356693867">
-                      Follow us on Instagram
+                      Follow us on Discord
                     </UncontrolledTooltip>
                   </NavItem> 
                   <NavItem>

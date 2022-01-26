@@ -37,40 +37,9 @@ class CardsFooter extends React.Component {
     return (
       <>
         <footer className="footer has-cards">
-          <Container className="container-lg">
-            <Row>
-              <Col className="mb-5 mb-md-0" md="6">
-                <Card className="card-lift--hover shadow border-0">
-                  <Link to="/entire-page">
-                    <CardImg
-                      alt="..."
-                      src={require("assets/img/theme/landing.jpg")}
-                    />
-                  </Link>
-                </Card>
-              </Col>
-              <Col className="mb-5 mb-lg-0" md="6">
-                <Card className="card-lift--hover shadow border-0">
-                  <Link to="/profile-page">
-                    <CardImg
-                      alt="..."
-                      src={require("assets/img/theme/profile.jpg")}
-                    />
-                  </Link>
-                </Card>
-              </Col>
-            </Row>
-          </Container>
+       
           <Container>
-            <Row className="row-grid align-items-center my-md">
-              <Col lg="6">
-                <h3 className="text-primary font-weight-light mb-2">
-                  Thank you for supporting us!
-                </h3>
-                <h4 className="mb-0 font-weight-light">
-                  Let's get in touch on any of these platforms.
-                </h4>
-              </Col>
+{/*           
               <Col className="text-lg-center btn-wrapper" lg="6">
                 <Button
                   className="btn-icon-only rounded-circle"
@@ -128,18 +97,106 @@ class CardsFooter extends React.Component {
                 <UncontrolledTooltip delay={0} target="tooltip495507257">
                   Star on Github
                 </UncontrolledTooltip>
+              </Col> */}
+              <Row className="align-items-center justify-content-md-between">
+              <Col md="7">
+             
+              </Col>
+              <Col md="5">
+              <Row className="align-items-end justify-content-md-between">
+              <Col md="6">
+                <div style={{  display: 'flex',
+  flexDirection: 'column'}}>
+     <div>
+     <small className="text-uppercase text-muted font-weight-bold">
+                    SM Token
+              </small>
+              </div>
+      <div>
+                    
+      <small className="text-uppercase text-muted font-weight-bold">
+                    UseCases
+              </small>
+              </div>
+              <div>
+                    
+              <small className="text-uppercase text-muted font-weight-bold">
+                    UseCases
+              </small>
+              </div>
+                  <div>
+
+                  <small className="text-uppercase text-muted font-weight-bold">
+                  What is a stream ?
+            </small>
+            </div>
+            <div>
+            <small className="text-uppercase text-muted font-weight-bold">
+            Docs
+            </small>
+            </div>
+            <div>
+      
+            <small className="d-block text-uppercase font-weight-bold ">
+            Resources
+            </small>
+            </div>
+            </div>
+            </Col>
+            <Col md="6">
+            <div style={{  display: 'flex',
+  flexDirection: 'column'}}>
+      <div>
+                  <small className="text-uppercase text-muted font-weight-bold">
+                  Linkedin
+            </small>
+            </div>  <div>
+                  <small className="text-uppercase text-muted font-weight-bold">
+                  Github
+            </small>
+            </div>  <div>
+                  <small className="text-uppercase text-muted font-weight-bold">
+                  Email
+            </small>
+            </div>  <div>
+                  <small className="text-uppercase text-muted font-weight-bold">
+                  Telegram
+            </small>
+            </div>
+                  <div>
+                  <small className="text-uppercase text-muted font-weight-bold">
+                  Twitter
+            </small>
+            </div>
+            <div>
+            <small className="text-uppercase text-muted font-weight-bold">
+            Discord
+            </small>
+            </div>
+            <div>
+            <small className="d-block text-uppercase font-weight-bold ">
+            Let’s connect!
+            </small>
+            </div>
+            </div>
+              </Col>
+              </Row>
+            
               </Col>
             </Row>
+           
+
             <hr />
+
             <Row className="align-items-center justify-content-md-between">
               <Col md="6">
                 <div className="copyright">
                   © {new Date().getFullYear()}{" "}
                   <a
-                    href="https://www.creative-tim.com?ref=adsr-footer"
+                    href="#"
                     target="_blank"
                   >
-                    Creative Tim
+                    Stream Your Pay
                   </a>
                   .
                 </div>
@@ -148,36 +205,13 @@ class CardsFooter extends React.Component {
                 <Nav className="nav-footer justify-content-end">
                   <NavItem>
                     <NavLink
-                      href="https://www.creative-tim.com?ref=adsr-footer"
+                      href="#"
                       target="_blank"
                     >
-                      Creative Tim
+                       Stream Your Pay
                     </NavLink>
                   </NavItem>
-                  <NavItem>
-                    <NavLink
-                      href="https://www.creative-tim.com/presentation?ref=adsr-footer"
-                      target="_blank"
-                    >
-                      About Us
-                    </NavLink>
-                  </NavItem>
-                  <NavItem>
-                    <NavLink
-                      href="http://blog.creative-tim.com?ref=adsr-footer"
-                      target="_blank"
-                    >
-                      Blog
-                    </NavLink>
-                  </NavItem>
-                  <NavItem>
-                    <NavLink
-                      href="https://github.com/creativetimofficial/argon-design-system-react/blob/master/LICENSE.md"
-                      target="_blank"
-                    >
-                      MIT License
-                    </NavLink>
-                  </NavItem>
+                 
                 </Nav>
               </Col>
             </Row>
