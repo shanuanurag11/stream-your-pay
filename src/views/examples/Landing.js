@@ -58,7 +58,7 @@ class Landing extends React.Component {
           <div className="position-relative">
             {/* shape Hero */}
             <section className="section section-lg section-shaped pb-250">
-              <div className="shape shape-style-1 shape-default">
+              <div className="shape shape-style-1 shape-dark " style={{background: 'linear-gradient(150deg, #1C1C33 15%, #1C1C33 50%, #923cb5 94%)' }}>
                 <span />
                 <span />
                 <span />
@@ -68,48 +68,23 @@ class Landing extends React.Component {
                 <span />
                 <span />
                 <span />
+                
               </div>
-              {/* <Container className="py-lg-md d-flex">
+              <Container className="py-lg-md d-flex" style={{paddingTop:"50px"}}>
                 <div className="col px-0">
                   <Row>
-                    <Col lg="6">
-                      <h1 className="display-3 text-white">
-                        A beautiful Design System{" "}
-                        <span>completed with examples</span>
+                    <Col lg="12">
+                      <h1 className="display-3 text-white" style={{textAlign:'center'}}>
+                      Exchange Values with real-time finance
                       </h1>
-                      <p className="lead text-white">
-                        The design system comes with four pre-built pages to
-                        help you get started faster. You can change the text and
-                        images and you're good to go.
+                      <p className="lead text-white" style={{textAlign:'center'}}>
+                      Enabling micro-payments! Manage salaries, remittances, subscriptions, etc. and handle cashflows<br/> efficiently with streamyourpay protocol
                       </p>
-                      <div className="btn-wrapper">
-                        <Button
-                          className="btn-icon mb-3 mb-sm-0"
-                          color="info"
-                          href="https://demos.creative-tim.com/argon-design-system-react/#/documentation/alerts?ref=adsr-landing-page"
-                        >
-                          <span className="btn-inner--icon mr-1">
-                            <i className="fa fa-code" />
-                          </span>
-                          <span className="btn-inner--text">Components</span>
-                        </Button>
-                        <Button
-                          className="btn-white btn-icon mb-3 mb-sm-0 ml-1"
-                          color="default"
-                          href="https://www.creative-tim.com/product/argon-design-system-react?ref=adsr-landing-page"
-                        >
-                          <span className="btn-inner--icon mr-1">
-                            <i className="ni ni-cloud-download-95" />
-                          </span>
-                          <span className="btn-inner--text">
-                            Download React
-                          </span>
-                        </Button>
-                      </div>
+                    
                     </Col>
                   </Row>
                 </div>
-              </Container> */}
+              </Container>
               {/* SVG separator */}
               <div className="separator separator-bottom separator-skew">
                 <svg
@@ -130,7 +105,7 @@ class Landing extends React.Component {
             {/* 1st Hero Variation */}
           </div>
         
-          <section className="section section-lg" style={{marginTop:"-100px"}}>
+          <section className="section section-lg" style={{marginTop:"-100px",background:'black'}}>
             <Container>
               <Row className="row-grid align-items-center">
                 <Col className="order-md-2" md="5">
@@ -145,41 +120,35 @@ class Landing extends React.Component {
                   
                  
                   <Col sm="12">
-            <h3 className="heading" style={{}}>{'\u2022'}{" "}
+            {/* <h3 className="heading" style={{}}>{'\u2022'}{" "}
             Exchange Services with real-time finance
-            </h3>
+            </h3> */}
             
 
-              <h3 className="heading" style={{}}>
+              {/* <h3 className="heading" style={{}}>
               {'\u2022'}{" "}Enabling micro-payments! Manage salaries, remittances, subscriptions, etc. and handle cashflows efficiently with streamyourpay protocol
-            </h3>
+            </h3> */}
          
-              <h3 className="heading" style={{marginBottom:'-25px'}}>
-              {'\u2022'}{" "} Two or more sub features
-            </h3>
-            <p className="lead text-muted" style={{fontSize:'16px',marginTop:'30px'}}>
+            <p className="lead text-bold" style={{fontSize:'32px',marginTop:'30px',fontWeight:"bold",color:"white"}}>
             Payment every minute              </p>
-              <p className="lead text-muted" style={{fontSize:'16px',marginTop:'-5px'}}>
+              <p className="lead " style={{fontSize:'16px',marginTop:'-5px',color:"white"}}>
               Streamyourpay believes exchange of value & service should be function of time since time is money. You see your earnings increasing in real-time in the SYP wallet. After a one-time deposit, our smart contracts will start "streaming" the money towards the payees, without you lifting a finger again.
               </p>
 
-              <h3 className="heading" style={{marginBottom:'-20px'}}>
-              {'\u2022'}{" "} Features
-            </h3>
-            <p className="lead text-muted" style={{fontSize:'16px'}}>
-            <small className="text-uppercase text-muted font-weight-bold">
+            <p className="lead text-bold" >
+            <small className="text-uppercase  font-weight-bold" style={{fontSize:'16px',color:"white"}}>
             On-Chain 
             </small>
             {" "}Transaction is updated on-chain at the time of withdraw request, avoiding transaction fess for each micro streams.
               </p>
-              <p className="lead text-muted" style={{fontSize:'16px',marginTop:'-5px'}}>
-              <small className="text-uppercase text-muted font-weight-bold">
+              <p className="lead text-bold" style={{marginTop:'-5px'}}>
+              <small className="text-uppercase text-bold font-weight-bold" style={{fontSize:'16px',color:"white"}}>
               50+ digital assets to transact with
             </small>
                {" "}Streams can easily be created with either stablecoins like DAI, USDC, etc. or digital currencies like ETH, SOL, BTC, etc.
               </p>
-              <p className="lead text-muted" style={{fontSize:'16px',marginTop:'-5px'}}>
-              <small className="text-uppercase text-muted font-weight-bold">
+              <p className="lead text" style={{fontSize:'16px',marginTop:'-5px'}}>
+              <small className="text-uppercase text-bold font-weight-bold" style={{fontSize:'16px',color:"white"}}>
                Low Transaction fees
             </small>
             {" "}It is built on solana blockchain. Hence, micro-payments can be enabled because of low transaction cost.
@@ -189,13 +158,12 @@ class Landing extends React.Component {
                 </Col>
               </Row>
             </Container>
+            <h2 className="" style={{textAlign:'center',color:'white',background:'black',marginTop:'50px'}}>         BRIEF ABOUT PROTOCOL</h2>
           </section>
-          <Col lg="12">
-        
-            <h2 className="display-3" style={{textAlign:'center',marginBottom:"50px",marginTop:"-50px"}}>         BRIEF ABOUT PROTOCOL</h2>
-          </Col>
-          <section className="section section-lg pt-lg-0 ">
-            <Container>
+
+          <section className="section section-lg  " style={{background:'black',marginTop:'-100px'}}>
+            <Container>        
+              
               <Row className="justify-content-center">
                 <Col lg="12">
                   <Row className="row-grid">
@@ -245,12 +213,10 @@ class Landing extends React.Component {
                 </Col>
               </Row>
             </Container>
+            <h2 className="display-3" style={{textAlign:'center',marginBottom:"50px",marginTop:"-50px",color:'white',marginTop:'80px'}}>        HOW IT WORKS?</h2>
           </section>
-          <Col lg="12">
-        
-        <h2 className="display-3" style={{textAlign:'center',marginBottom:"50px",marginTop:"-50px"}}>        HOW IT WORKS?</h2>
-      </Col>
-      <section className="section section-lg pt-lg-0 ">
+    
+      <section className="section section-lg pt-lg-0 " style={{background:'black',marginTop:'-50px'}}>
             <Container>
               <Row className="justify-content-between" style={{}}>
                 <Col lg="12">
@@ -412,7 +378,7 @@ class Landing extends React.Component {
               </Row>
             </Container>
           </section> */}
-          <section className="section pb-0 bg-gradient-warning">
+          <section className="section pb-0 " style={{background: 'linear-gradient(150deg, #000000 15%,#000000 50%, #923cb5 70%)' }}>
             <Container>
               <Row className="row-grid align-items-center">
                 <Col className="order-lg-2 ml-lg-auto" md="6">
@@ -427,7 +393,7 @@ class Landing extends React.Component {
                 <Col className="order-lg-1" lg="6">
                   <div className="d-flex px-3">
                     <div>
-                      <div className="icon icon-lg icon-shape bg-gradient-white shadow rounded-circle text-primary">
+                      <div className="icon icon-lg icon-shape bg-gradient-white shadow rounded-circle text-primary" >
                         <i className="ni ni-building text-primary" />
                       </div>
                     </div>
