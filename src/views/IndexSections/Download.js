@@ -1,19 +1,5 @@
 /*!
 
-=========================================================
-* Argon Design System React - v1.1.0
-=========================================================
-
-* Product Page: https://www.creative-tim.com/product/argon-design-system-react
-* Copyright 2020 Creative Tim (https://www.creative-tim.com)
-* Licensed under MIT (https://github.com/creativetimofficial/argon-design-system-react/blob/master/LICENSE.md)
-
-* Coded by Creative Tim
-
-=========================================================
-
-* The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
-
 */
 /*eslint-disable*/
 import React from "react";
@@ -41,15 +27,7 @@ class Download extends React.Component {
                   Design System in React. Start a new project or give an old
                   Bootstrap project a new look!
                 </p>
-                <div className="btn-wrapper">
-                  <Button
-                    className="mb-3 mb-sm-0"
-                    color="primary"
-                    href="https://www.creative-tim.com/product/argon-design-system-react?ref=adsr-landing-page"
-                  >
-                    Download React
-                  </Button>
-                </div>
+              
                 <div className="text-center">
                   <h4 className="display-4 mb-5 mt-5">
                     Available on these technologies
@@ -103,56 +81,7 @@ class Download extends React.Component {
                         Angular - One framework. Mobile & Desktop
                       </UncontrolledTooltip>
                     </Col>
-                    <Col lg="2" xs="4">
-                      <a
-                        href="https://www.creative-tim.com/product/argon-design-system-react?ref=adsr-landing-page"
-                        id="tooltip308866163"
-                        target="_blank"
-                      >
-                        <img
-                          alt="..."
-                          className="img-fluid"
-                          src="https://s3.amazonaws.com/creativetim_bucket/tim_static_images/presentation-page/react.jpg"
-                        />
-                      </a>
-                      <UncontrolledTooltip delay={0} target="tooltip308866163">
-                        React - A JavaScript library for building user
-                        interfaces
-                      </UncontrolledTooltip>
-                    </Col>
-                    <Col lg="2" xs="4">
-                      <a
-                        href="https://www.creative-tim.com/product/argon-design-system-react?ref=adsr-landing-page"
-                        id="tooltip76119384"
-                        target="_blank"
-                      >
-                        <img
-                          alt="..."
-                          className="img-fluid"
-                          src="https://s3.amazonaws.com/creativetim_bucket/tim_static_images/presentation-page/sketch.jpg"
-                        />
-                      </a>
-                      <UncontrolledTooltip delay={0} target="tooltip76119384">
-                        Sketch - Digital design toolkit
-                      </UncontrolledTooltip>
-                    </Col>
-                    <Col lg="2" xs="4">
-                      <a
-                        href="https://www.creative-tim.com/product/argon-design-system-react?ref=adsr-landing-page"
-                        id="tooltip646643508"
-                        target="_blank"
-                      >
-                        <img
-                          alt="..."
-                          className="img-fluid"
-                          src="https://s3.amazonaws.com/creativetim_bucket/tim_static_images/presentation-page/ps.jpg"
-                        />
-                      </a>
-                      <UncontrolledTooltip delay={0} target="tooltip646643508">
-                        Adobe Photoshop - Software for digital images
-                        manipulation
-                      </UncontrolledTooltip>
-                    </Col>
+                  
                   </Row>
                 </div>
               </Col>
