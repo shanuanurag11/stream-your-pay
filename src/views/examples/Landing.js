@@ -93,8 +93,8 @@ class Landing extends React.Component {
         
           <section className="section section-lg" style={{marginTop:"-100px",background:'black'}}>
             <Container>
-              <Row className="row-grid align-items-center">
-                <Col className="order-md-2" md="5">
+              <Row className="row-grid align-items-center" style={{justifyContent:'space-between'}}>
+                <Col className="order-md-2" md="4">
                   <img
                     alt="..."
                     className="img-fluid floating"
@@ -121,19 +121,19 @@ class Landing extends React.Component {
               Streamyourpay believes exchange of value & service should be function of time since time is money. You see your earnings increasing in real-time in the SYP wallet. After a one-time deposit, our smart contracts will start "streaming" the money towards the payees, without you lifting a finger again.
               </p>
 
-            <p className="lead text-bold" >
-            <small className="text-uppercase  font-weight-bold" style={{fontSize:'16px',color:"white"}}>
-            On-Chain 
+            <p className="lead text-bold" style={{color:"white",fontSize:'14px',}} >
+            <small className="text-uppercase  font-weight-bold" style={{fontSize:'16px'}}>
+          On-Chain
             </small>
             {" "}Transaction is updated on-chain at the time of withdraw request, avoiding transaction fess for each micro streams.
               </p>
-              <p className="lead text-bold" style={{marginTop:'-5px'}}>
+              <p className="lead text-bold" style={{marginTop:'-5px',color:"white",fontSize:'14px',}}>
               <small className="text-uppercase text-bold font-weight-bold" style={{fontSize:'16px',color:"white"}}>
               50+ digital assets to transact with
             </small>
                {" "}Streams can easily be created with either stablecoins like DAI, USDC, etc. or digital currencies like ETH, SOL, BTC, etc.
               </p>
-              <p className="lead text" style={{fontSize:'16px',marginTop:'-5px'}}>
+              <p className="lead text" style={{marginTop:'-5px',color:"white",fontSize:'14px',}}>
               <small className="text-uppercase text-bold font-weight-bold" style={{fontSize:'16px',color:"white"}}>
                Low Transaction fees
             </small>
@@ -207,12 +207,12 @@ class Landing extends React.Component {
               <Row className="justify-content-between" style={{}}>
                 <Col lg="12">
                   <Row className="row-grid" style={{justifyContent:'space-between'}}>
-                    <Col lg="2">
-                      <Card className="card-lift--hover shadow border-0" style={{minHeight:'350px'}}>
+                    <Col lg="3">
+                      <Card className="card-lift--hover shadow border-0" style={{minHeight:'360px',minWidth:'220px'}}>
                         <CardBody className="py-5">
-                          <div className="icon icon-shape icon-shape-primary rounded-circle mb-4">
-                            <i className="ni ni-check-bold" />
-                          </div>
+                        <h6 className="display-6 font-weight-bold" style={{fontSize:'16px'}}>
+        Step-1
+                      </h6>
              <div>
                           <small className="text-uppercase font-weight-bold text-primary">
                           Create sollet & phantom wallet if not created else login into wallet   
@@ -226,11 +226,11 @@ class Landing extends React.Component {
                     </Col>
               
                     <Col lg="3">
-                      <Card className="card-lift--hover shadow border-0" style={{minHeight:'350px'}}>
+                      <Card className="card-lift--hover shadow border-0" style={{minHeight:'360px',minWidth:'220px'}}>
                         <CardBody className="py-5">
-                          <div className="icon icon-shape icon-shape-success rounded-circle mb-4">
-                            <i className="ni ni-istanbul" />
-                          </div>
+                        <h6 className="display-6 font-weight-bold" style={{fontSize:'16px'}}>
+        Step-2
+                      </h6>
                           <div>
                           <small className="text-uppercase text-info font-weight-bold">
                           Deposit wallet with required sum + transaction fee. Maintain SM token in wallet for transaction fees; swap for SM token on platform itself if required                
@@ -241,12 +241,12 @@ class Landing extends React.Component {
                         </CardBody>
                       </Card>
                     </Col>
-                    <Col lg="2">
-                      <Card className="card-lift--hover shadow border-0" style={{minHeight:'350px'}}>
+                    <Col lg="3">
+                      <Card className="card-lift--hover shadow border-0" style={{minHeight:'360px',minWidth:'220px'}}>
                         <CardBody className="py-5">
-                          <div className="icon icon-shape icon-shape-warning rounded-circle mb-4">
-                            <i className="ni ni-planet" />
-                          </div>
+                        <h6 className="display-6 font-weight-bold" style={{fontSize:'16px'}}>
+        Step-3
+                      </h6>
                           <div>
                           <small className="text-uppercase text-danger font-weight-bold">
                           Click on create stream {'>'} select nature of stream and fill relevant information              </small>
@@ -256,14 +256,14 @@ class Landing extends React.Component {
                         </CardBody>
                       </Card>
                     </Col>
-                    <Col lg="2">
-                      <Card className="card-lift--hover shadow border-0" style={{minHeight:'350px'}}>
+                    <Col lg="3">
+                      <Card className="card-lift--hover shadow border-0" style={{minHeight:'360px',minWidth:'220px'}}>
                         <CardBody className="py-5">
-                          <div className="icon icon-shape icon-shape-warning rounded-circle mb-4">
-                            <i className="ni ni-planet" />
-                          </div>
+                        <h6 className="display-6 font-weight-bold" style={{fontSize:'16px'}}>
+        Step-4
+                      </h6>
                           <div>
-                          <small className="text-uppercase text-warning font-weight-bold">
+                          <small className="text-uppercase text-success font-weight-bold">
                           Approve transaction for action based contract                     </small>
             </div>
                          
@@ -272,7 +272,7 @@ class Landing extends React.Component {
                         </CardBody>
                       </Card>
                     </Col>
-                    <Col lg="2">
+                    {/* <Col lg="2">
                       <Card className="card-lift--hover shadow border-0" style={{minHeight:'350px'}}>
                         <CardBody className="py-5">
                           <div className="icon icon-shape icon-shape-warning rounded-circle mb-4">
@@ -286,7 +286,7 @@ class Landing extends React.Component {
                          
                         </CardBody>
                       </Card>
-                    </Col>
+                    </Col> */}
                  
                   </Row>
                 </Col>

@@ -59,7 +59,7 @@ class DemoNavbar extends React.Component {
           >
             <Container>
               <NavbarBrand className="mr-lg-5" to="/" tag={Link}>
-              <span className="nav-link-inner--text" style={{ fontSize:"18px"}}>STREAM YOUR PAY</span>
+              <span className="nav-link-inner--text" style={{ fontSize:"18px"}}>STREAM MONEY</span>
               </NavbarBrand>
               <button className="navbar-toggler" id="navbar_global">
                 <span className="navbar-toggler-icon" />
@@ -95,12 +95,12 @@ class DemoNavbar extends React.Component {
                   <NavItem>
                     <NavLink
                       className="nav-link-icon"
-                      href="https://www.instagram.com/creativetimofficial"
+                      href="https://discord.gg/ZPdfAzQU"
                       id="tooltip356693867"
                       target="_blank"
                     >
              <img    alt="..."
-                    src={require("../../assets/img/icons/discord-icon.png")}  style={{width:'20px',height:'20px'}} />
+                    src={require("../../assets/img/icons/discord-icon.png")}  style={{width:'24px',height:'24px'}} />
                       <span className="nav-link-inner--text d-lg-none ml-2">
                         Discord
                       </span>
@@ -112,11 +112,12 @@ class DemoNavbar extends React.Component {
                   <NavItem>
                     <NavLink
                       className="nav-link-icon"
-                      href="https://twitter.com/creativetim"
+                      href="https://twitter.com/StreamMoney3"
                       id="tooltip184698705"
                       target="_blank"
                     >
-                      <i className="fa fa-twitter-square" />
+   <img    alt="..."
+                    src={require("../../assets/img/icons/twitter-icon.png")}  style={{width:'20px',height:'16px'}} />
                       <span className="nav-link-inner--text d-lg-none ml-2">
                         Twitter
                       </span>
