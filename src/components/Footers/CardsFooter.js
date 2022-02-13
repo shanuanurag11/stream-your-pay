@@ -182,7 +182,7 @@ class CardsFooter extends React.Component {
                     href="#"
                     target="_blank"
                   >
-                    Stream Your Pay
+                    Stream Money
                   </a>
                   .
                 </div>
@@ -194,7 +194,7 @@ class CardsFooter extends React.Component {
                       href="#"
                       target="_blank"
                     >
-                       Stream Your Pay
+                       Stream Money
                     </NavLink>
                   </NavItem>
                  

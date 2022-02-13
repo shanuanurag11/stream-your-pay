@@ -59,6 +59,11 @@ class DemoNavbar extends React.Component {
           >
             <Container>
               <NavbarBrand className="mr-lg-5" to="/" tag={Link}>
+              <img
+              style={{width:'60px',height:'60px'}}
+                  alt="..."
+                          src={require("assets/img/icons/Untitled_Artwork.svg")}
+                        />
               <span className="nav-link-inner--text" style={{ fontSize:"18px"}}>STREAM MONEY</span>
               </NavbarBrand>
               <button className="navbar-toggler" id="navbar_global">

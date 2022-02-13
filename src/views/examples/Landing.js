@@ -44,16 +44,9 @@ class Landing extends React.Component {
           <div className="position-relative">
             {/* shape Hero */}
             <section className="section section-lg section-shaped pb-250">
+              <image style={{width:'1280px',height:'500px'}} src={require('../../assets/img/icons/banner.jpg')}/>
               <div className="shape shape-style-1 shape-dark " style={{background: 'linear-gradient(150deg, #1C1C33 15%, #1C1C33 50%, #923cb5 94%)' }}>
-                <span />
-                <span />
-                <span />
-                <span />
-                <span />
-                <span />
-                <span />
-                <span />
-                <span />
+              <img alt="..." style={{width:'100%',height:'500px'}} src={require('../../assets/img/icons/banner.jpg')}/>
                 
               </div>
               <Container className="py-lg-md d-flex" style={{paddingTop:"50px"}}>
