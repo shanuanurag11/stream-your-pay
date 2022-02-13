@@ -84,7 +84,7 @@ class Landing extends React.Component {
             {/* 1st Hero Variation */}
           </div>
         
-          <section className="section section-lg" style={{marginTop:"-100px",background:'black'}}>
+          <section className="section section-lg" style={{marginTop:"-100px",background:'#04062C'}}>
             <Container>
               <Row className="row-grid align-items-center" style={{justifyContent:'space-between'}}>
                 <Col className="order-md-2" md="4">
@@ -137,10 +137,10 @@ class Landing extends React.Component {
                 </Col>
               </Row>
             </Container>
-            <h2 className="" style={{textAlign:'center',color:'white',background:'black',marginTop:'50px'}}>         BRIEF ABOUT PROTOCOL</h2>
+            <h2 className="" style={{textAlign:'center',color:'white',background:'#04062C',marginTop:'50px'}}>         BRIEF ABOUT PROTOCOL</h2>
           </section>
 
-          <section className="section section-lg  " style={{background:'black',marginTop:'-100px'}}>
+          <section className="section section-lg  " style={{background:'#04062C',marginTop:'-100px'}}>
             <Container>        
               
               <Row className="justify-content-center">
@@ -195,7 +195,7 @@ class Landing extends React.Component {
             <h2 className="display-3" style={{textAlign:'center',marginBottom:"50px",marginTop:"-50px",color:'white',marginTop:'80px'}}>        HOW IT WORKS?</h2>
           </section>
     
-      <section className="section section-lg pt-lg-0 " style={{background:'black',marginTop:'-50px'}}>
+      <section className="section section-lg pt-lg-0 " style={{background:'#04062C',marginTop:'-50px'}}>
             <Container>
               <Row className="justify-content-between" style={{}}>
                 <Col lg="12">
