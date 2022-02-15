@@ -44,8 +44,8 @@ class Landing extends React.Component {
           <div className="position-relative">
             {/* shape Hero */}
             <section className="section section-lg section-shaped pb-250">
-              <image style={{width:'1280px',height:'500px'}} src={require('../../assets/img/icons/banner.jpg')}/>
-              <div className="shape shape-style-1 shape-dark " style={{background: 'linear-gradient(150deg, #1C1C33 15%, #1C1C33 50%, #923cb5 94%)' }}>
+              // <image style={{width:'1280px',height:'600px'}} src={require('../../assets/img/icons/banner.jpg')}/>
+              <div className="shape shape-style-1 shape-dark">
               <img alt="..." style={{width:'100%',height:'500px'}} src={require('../../assets/img/icons/banner.jpg')}/>
                 
               </div>
@@ -54,10 +54,10 @@ class Landing extends React.Component {
                   <Row>
                     <Col lg="12">
                       <h1 className="display-3 text-white" style={{textAlign:'center'}}>
-                      Exchange Values with real-time finance
+                      Enabling Micro-payments with continuous money streaming protocol
                       </h1>
                       <p className="lead text-white" style={{textAlign:'center'}}>
-                      Enabling micro-payments! Manage salaries, remittances, subscriptions, etc. and handle cashflows<br/> efficiently with streamyourpay protocol
+                      Manage salaries, recurring payouts, subscriptions, etc. and handle cashflows efficiently with real-time finance protocol
                       </p>
                     
                     </Col>
@@ -100,38 +100,39 @@ class Landing extends React.Component {
                  
                   <Col sm="12">
             {/* <h3 className="heading" style={{}}>{'\u2022'}{" "}
-            Exchange Services with real-time finance
+            Enabling Micro-payments with continuous money streaming protocol
             </h3> */}
             
 
               {/* <h3 className="heading" style={{}}>
-              {'\u2022'}{" "}Enabling micro-payments! Manage salaries, remittances, subscriptions, etc. and handle cashflows efficiently with streamyourpay protocol
+              {'\u2022'}{" "} Manage salaries, recurring payouts, subscriptions, etc. and handle cashflows efficiently with real-time finance protocol
             </h3> */}
          
             <p className="lead text-bold" style={{fontSize:'32px',marginTop:'30px',fontWeight:"bold",color:"white"}}>
-            Payment every minute              </p>
+            Payment every second/milestone              </p>
               <p className="lead " style={{fontSize:'16px',marginTop:'-5px',color:"white"}}>
-              Streamyourpay believes exchange of value & service should be function of time since time is money. You see your earnings increasing in real-time in the SYP wallet. After a one-time deposit, our smart contracts will start "streaming" the money towards the payees, without you lifting a finger again.
+              An implicit debt obligation is established between payer and beneficiary when payment is exchanged for their time & efforts. Such obligation carries 0 % interest and financially favors the payer. StreamMoney provides the ability to pay digitally for bits of data or services in small increments continuously over time. After one-time deposit, smart contracts starts "streaming" the money towards the payees and payees can withdraw vested money at their convenience which removes debt obligation.
+              </p>
+              <p className="lead text" style={{marginTop:'-5px',color:"white",fontSize:'14px',}}>
+            <small className="text-uppercase text-bold font-weight-bold" style={{fontSize:'16px',color:"white"}}>
+               Low Transaction fees - 
+            </small>
+            {" "}Transaction gets confirmed in less than a second and costs as low as US$ 0.002.
               </p>
 
             <p className="lead text-bold" style={{color:"white",fontSize:'14px',}} >
             <small className="text-uppercase  font-weight-bold" style={{fontSize:'16px'}}>
-          On-Chain
+               On-Chain - 
             </small>
             {" "}Transaction is updated on-chain at the time of withdraw request, avoiding transaction fess for each micro streams.
               </p>
               <p className="lead text-bold" style={{marginTop:'-5px',color:"white",fontSize:'14px',}}>
               <small className="text-uppercase text-bold font-weight-bold" style={{fontSize:'16px',color:"white"}}>
-              50+ digital assets to transact with
+               50+ digital assets to transact with - 
             </small>
-               {" "}Streams can easily be created with either stablecoins like DAI, USDC, etc. or digital currencies like ETH, SOL, BTC, etc.
+               {" "}Streams can easily be created with either stablecoins or digital currencies like USDC, SOL, etc.
               </p>
-              <p className="lead text" style={{marginTop:'-5px',color:"white",fontSize:'14px',}}>
-              <small className="text-uppercase text-bold font-weight-bold" style={{fontSize:'16px',color:"white"}}>
-               Low Transaction fees
-            </small>
-            {" "}It is built on solana blockchain. Hence, micro-payments can be enabled because of low transaction cost.
-              </p>
+              
           </Col>
                   {/* </div> */}
                 </Col>
@@ -153,7 +154,7 @@ class Landing extends React.Component {
                             <i className="ni ni-check-bold" />
                           </div>
                           <p className="description mt-3">
-                          Streammoney protocol enables power to describe cashflows in two different ways and execute them programmatically on-chain over time without interaction. 
+                          Time-based Money streaming represents the idea of continuous payments over time. It continuously updates the balances of the parties in the contract as per the agreed-upon payment rate. The Money Stream is set up with specific conditions such as vesting schedule, rate, cliff, start time, and beneficiary, among other setup options.
                           </p>
                 
                            
@@ -168,7 +169,7 @@ class Landing extends React.Component {
                           </div>
                        
                           <p className="description mt-3">
-                          Our first smart contract allows one-to-many distributions of time-based value exchange where all flows are settled based on block timestamps. 
+                          Money streaming by milestone represents the idea of continuous payments whereby the agreed-upon payment is streamed to the recipient when the submitted work is approved by the stream creator. The Money Stream is set up with specific conditions such as task description, task rate, timeline, and beneficiary, among other setup options. 
                           </p>
                          
                         </CardBody>
@@ -182,7 +183,7 @@ class Landing extends React.Component {
                           </div>
                          
                           <p className="description mt-3">
-                          Our second smart contract allows the capability to structure action-based value exchange in smaller tasks so that creator gets paid as the contract progresses.
+                          Users can delegate streamed assets to the treasurer. Treasurer locks stream amount into epochs for certain time intervals and uses best strategies to generate returns. Returns are shared between user & beneficiary and StreamMoney takes a small commission. 
                           </p>
                          
                         </CardBody>
@@ -192,9 +193,11 @@ class Landing extends React.Component {
                 </Col>
               </Row>
             </Container>
-            <h2 className="display-3" style={{textAlign:'center',marginBottom:"50px",marginTop:"-50px",color:'white',marginTop:'80px'}}>        HOW IT WORKS?</h2>
+            <h2 className="display-3" style={{textAlign:'center',marginBottom:"50px",marginTop:"-50px",color:'white',marginTop:'80px'}}>        Use Cases</h2>
+            <p className="description mt-3" style={{textAlign: 'center',color:'white', paddingLeft: '50px' }}>
+                          Micropayments are especially well suited for buying digital products that can be interacted directly on the Web, including data, music, services, and software. With streaming protocol, consumers can pay five cents for a newspaper article, a dollar for a song, or ten bucks to rent Microsoft Word. 
+                          </p>
           </section>
-    
       <section className="section section-lg pt-lg-0 " style={{background:'#04062C',marginTop:'-50px'}}>
             <Container>
               <Row className="justify-content-between" style={{}}>
@@ -208,7 +211,7 @@ class Landing extends React.Component {
                       </h6>
              <div>
                           <small className="text-uppercase font-weight-bold text-primary">
-                          Create sollet & phantom wallet if not created else login into wallet   
+                          Real time Income - Salaries, Gig workers. Send money to employees by minutes/days/weeks and by milestones to contractor & freelancers.    
             </small>
             </div>
                 
@@ -226,7 +229,7 @@ class Landing extends React.Component {
                       </h6>
                           <div>
                           <small className="text-uppercase text-info font-weight-bold">
-                          Deposit wallet with required sum + transaction fee. Maintain SM token in wallet for transaction fees; swap for SM token on platform itself if required                
+                          Consumer media and subscriptions - Offer pay-per-use online services and lower your customer acquisition cost. Focused industries are content on demand (audio, video, text), Live events, Subscriptions, etc.        
             </small>
             </div>
                        
@@ -242,7 +245,7 @@ class Landing extends React.Component {
                       </h6>
                           <div>
                           <small className="text-uppercase text-danger font-weight-bold">
-                          Click on create stream {'>'} select nature of stream and fill relevant information              </small>
+                          Metaverse - Digital Assets Rental, Live events, and Billboard advertising by seconds are a few use cases where StreamMoney protocol can be utilized for value transfer.              </small>
             </div>
                          
                          
@@ -257,24 +260,10 @@ class Landing extends React.Component {
                       </h6>
                           <div>
                           <small className="text-uppercase text-success font-weight-bold">
-                          Approve transaction for action based contract                     </small>
+                          Emerging Usecases - Referral marketing on web3 and micro-mobility services such as bike rental                     </small>
             </div>
                          
-                    
-                         
-                        </CardBody>
-                      </Card>
-                    </Col>
-                    {/* <Col lg="2">
-                      <Card className="card-lift--hover shadow border-0" style={{minHeight:'350px'}}>
-                        <CardBody className="py-5">
-                          <div className="icon icon-shape icon-shape-warning rounded-circle mb-4">
-                            <i className="ni ni-planet" />
-                          </div>
-                          <div>
-                          <small className="text-uppercase text-success font-weight-bold">
-                          Terminate stream if need be               </small>
-            </div>
+ 
                   
                          
                         </CardBody>
@@ -415,13 +404,13 @@ Industries : Salaries, consulting, subscriptions, audio/video content and live e
                         </div>
                         <div className="pl-4">
                           <h5 className="title text-warning">
-                          Action based stream
+                          Milestone based stream
                           </h5>
                           <p>
                           <small className="text-uppercase text-muted font-weight-bold">
-                          Pay per action.{" "}
+                          Pay per milestone.{" "}
             </small>
-                           This smart contract is created to cater to deliverables based freelance or consulting work where entire deliverables can be broken in parts and micro-streams can be created within a stream. 
+                           This smart contract is created to cater to deliverables based freelance or consulting work where tasks can be divided in parts and micro-streams can be created for each subtask. 
 Industries : Freelance and Consulting such as development, design, marketing
                           </p>
                         
@@ -457,7 +446,7 @@ Industries : Freelance and Consulting such as development, design, marketing
                 <Col lg="10">
                   <h2 className="display-3 text-white">DAO Governance</h2>
                   <p className="lead text-white">
-                  Streammoney DAO is a decentralised autonomous organisation (DAO) with a single purpose:
+                  StreamMoney DAO is a decentralised autonomous organisation (DAO) with a single purpose:
                   </p>
                 </Col>
               </Row>
