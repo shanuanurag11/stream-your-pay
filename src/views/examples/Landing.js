@@ -46,17 +46,17 @@ class Landing extends React.Component {
             <section className="section section-lg section-shaped pb-250">
      
               <div className="shape shape-style-1 shape-dark">
-              <img alt="..." style={{width:'100%',height:'auto',objectFit: 'cover'}} src={require('../../assets/img/icons/banner.jpg')}/>
+              <img alt="..." style={{width:'100%',height:'auto'}} src={require('../../assets/img/icons/banner.jpg')}/>
                 
               </div>
               <Container className="py-lg-md d-flex" style={{paddingTop:"50px"}}>
                 <div className="col px-0">
                   <Row>
                     <Col lg="12">
-                      <h1 className="display-3 text-white" style={{textAlign:'center'}}>
+                      <h1 className="display-3 text-white " style={{textAlign:'center',fontFamily:'denim-sans'}}>
                       Enabling Micro-payments with continuous money streaming protocol
                       </h1>
-                      <p className="lead text-white" style={{textAlign:'center'}}>
+                      <p className="lead text-white" style={{textAlign:'center',fontFamily:'denim-sans'}}>
                       Manage salaries, recurring payouts, subscriptions, etc. and handle cashflows efficiently with real-time finance protocol
                       </p>
                     
@@ -101,25 +101,25 @@ class Landing extends React.Component {
                   <Col sm="12">
          
          
-            <p className="lead text-bold" style={{fontSize:'32px',marginTop:'30px',fontWeight:"bold",color:"white"}}>
+            <p className="lead text-bold" style={{fontSize:'32px',marginTop:'30px',fontWeight:"bold",color:"white",fontFamily:'denim-sans'}}>
             Payment every second/milestone              </p>
-              <p className="lead " style={{fontSize:'16px',marginTop:'-5px',color:"white"}}>
+              <p className="lead " style={{fontSize:'16px',marginTop:'-5px',color:"white",fontFamily:'denim-sans'}}>
               An implicit debt obligation is established between payer and beneficiary when payment is exchanged for their time & efforts. Such obligation carries 0 % interest and financially favors the payer. StreamMoney provides the ability to pay digitally for bits of data or services in small increments continuously over time. After one-time deposit, smart contracts starts "streaming" the money towards the payees and payees can withdraw vested money at their convenience which removes debt obligation.
               </p>
-              <p className="lead text" style={{marginTop:'-5px',color:"white",fontSize:'14px',}}>
-            <small className="text-uppercase text-bold font-weight-bold" style={{fontSize:'16px',color:"white"}}>
+              <p className="lead text" style={{marginTop:'-5px',color:"white",fontSize:'14px',fontFamily:'denim-sans'}}>
+            <small className="text-uppercase text-bold font-weight-bold" style={{fontSize:'16px',color:"white",fontFamily:'denim-sans'}}>
                Low Transaction fees - 
             </small>
             {" "}Transaction gets confirmed in less than a second and costs as low as US$ 0.002.
               </p>
 
-            <p className="lead text-bold" style={{color:"white",fontSize:'14px',}} >
+            <p className="lead text-bold" style={{color:"white",fontSize:'14px',fontFamily:'denim-sans'}} >
             <small className="text-uppercase  font-weight-bold" style={{fontSize:'16px'}}>
                On-Chain - 
             </small>
             {" "}Transaction is updated on-chain at the time of withdraw request, avoiding transaction fess for each micro streams.
               </p>
-              <p className="lead text-bold" style={{marginTop:'-5px',color:"white",fontSize:'14px',}}>
+              <p className="lead text-bold" style={{marginTop:'-5px',color:"white",fontSize:'14px',fontFamily:'denim-sans'}}>
               <small className="text-uppercase text-bold font-weight-bold" style={{fontSize:'16px',color:"white"}}>
                50+ digital assets to transact with - 
             </small>
@@ -131,7 +131,7 @@ class Landing extends React.Component {
                 </Col>
               </Row>
             </Container>
-            <h2 className="" style={{textAlign:'center',color:'white',background:'#04062C',marginTop:'50px'}}>         BRIEF ABOUT PROTOCOL</h2>
+            <h2 className="" style={{textAlign:'center',color:'white',background:'#04062C',marginTop:'50px',fontFamily:'denim-sans'}}>         BRIEF ABOUT PROTOCOL</h2>
           </section>
 
           <section className="section section-lg  " style={{background:'#04062C',marginTop:'-100px'}}>
@@ -152,7 +152,7 @@ class Landing extends React.Component {
                           </div>
                           </Col>
                           <Col lg="8">
-                          <p className="lead text-primary" style={{marginTop:'0px',color:"black",fontSize:'14px',fontWeight:'bold'}}>
+                          <p className="lead text-primary" style={{marginTop:'0px',color:"black",fontSize:'14px',fontWeight:'bold',fontFamily:'denim-sans'}}>
             
                {" "}Title one here
               </p>
@@ -160,7 +160,7 @@ class Landing extends React.Component {
                           </Row>
                           </Col>
                         
-                          <p className="description mt-3">
+                          <p className="description mt-3" style={{fontFamily:'denim-sans'}}>
                           Time-based Money streaming represents the idea of continuous payments over time. It continuously updates the balances of the parties in the contract as per the agreed-upon payment rate. The Money Stream is set up with specific conditions such as vesting schedule, rate, cliff, start time, and beneficiary, among other setup options.
                           </p>
                 
@@ -179,7 +179,7 @@ class Landing extends React.Component {
                           </div>
                           </Col>
                           <Col lg="8">
-                          <p className="lead text-success" style={{marginTop:'0px',color:"black",fontSize:'14px',fontWeight:'bold'}}>
+                          <p className="lead text-success" style={{marginTop:'0px',color:"black",fontSize:'14px',fontWeight:'bold',fontFamily:'denim-sans'}}>
             
                {" "}Streams can easily 
               </p>
@@ -187,7 +187,7 @@ class Landing extends React.Component {
                           </Row>
                           </Col>
                        
-                          <p className="description mt-3">
+                          <p className="description mt-3" style={{fontFamily:'denim-sans'}}>
                           Money streaming by milestone represents the idea of continuous payments whereby the agreed-upon payment is streamed to the recipient when the submitted work is approved by the stream creator. The Money Stream is set up with specific conditions such as task description, task rate, timeline, and beneficiary, among other setup options. 
                           </p>
                          
@@ -205,7 +205,7 @@ class Landing extends React.Component {
                           </div>
                           </Col>
                           <Col lg="8">
-                          <p className="lead text-warning" style={{marginTop:'0px',color:"black",fontSize:'14px',fontWeight:'bold'}}>
+                          <p className="lead text-warning" style={{marginTop:'0px',color:"black",fontSize:'14px',fontWeight:'bold',fontFamily:'denim-sans'}}>
             
                {" "}Streams can easily 
               </p>
@@ -213,7 +213,7 @@ class Landing extends React.Component {
                           </Row>
                           </Col>
                          
-                          <p className="description mt-3">
+                          <p className="description mt-3" style={{fontFamily:'denim-sans'}}>
                           Users can delegate streamed assets to the treasurer. Treasurer locks stream amount into epochs for certain time intervals and uses best strategies to generate returns. Returns are shared between user & beneficiary and StreamMoney takes a small commission. 
                           </p>
                          
@@ -225,7 +225,7 @@ class Landing extends React.Component {
               </Row>
             </Container>
             <h2 className="display-3" style={{textAlign:'center',marginBottom:"50px",color:'white',marginTop:'80px'}}>        Use Cases</h2>
-            <p className="description mt-3" style={{textAlign: 'center',color:'white', paddingLeft: '15%',paddingRight:'15%',lineHeight:"30px" }}>
+            <p className="description mt-3" style={{textAlign: 'center',color:'white', paddingLeft: '15%',paddingRight:'15%',lineHeight:"30px",fontFamily:'denim-sans' }}>
                           Micropayments are especially well suited for buying digital products that can be interacted directly on the Web, including data, music, services, and software. With streaming protocol, consumers can pay five cents for a newspaper article, a dollar for a song, or ten bucks to rent Microsoft Word. 
                           </p>
           </section>
@@ -241,7 +241,7 @@ class Landing extends React.Component {
         Step-1
                       </h6>
              <div>
-                          <small className="text-uppercase font-weight-bold text-primary">
+                          <small className="text-uppercase font-weight-bold text-primary" style={{fontFamily:'denim-sans'}}>
                           Real time Income - Salaries, Gig workers. Send money to employees by minutes/days/weeks and by milestones to contractor & freelancers.    
             </small>
             </div>
@@ -259,7 +259,7 @@ class Landing extends React.Component {
         Step-2
                       </h6>
                           <div>
-                          <small className="text-uppercase text-info font-weight-bold">
+                          <small className="text-uppercase text-info font-weight-bold" style={{fontFamily:'denim-sans'}}>
                           Consumer media and subscriptions - Offer pay-per-use online services and lower your customer acquisition cost. Focused industries are content on demand (audio, video, text), Live events, Subscriptions, etc.        
             </small>
             </div>
@@ -275,7 +275,7 @@ class Landing extends React.Component {
         Step-3
                       </h6>
                           <div>
-                          <small className="text-uppercase text-danger font-weight-bold">
+                          <small className="text-uppercase text-danger font-weight-bold" style={{fontFamily:'denim-sans'}}>
                           Metaverse - Digital Assets Rental, Live events, and Billboard advertising by seconds are a few use cases where StreamMoney protocol can be utilized for value transfer.              </small>
             </div>
                          
@@ -290,7 +290,7 @@ class Landing extends React.Component {
         Step-4
                       </h6>
                           <div>
-                          <small className="text-uppercase text-success font-weight-bold">
+                          <small className="text-uppercase text-success font-weight-bold" style={{fontFamily:'denim-sans'}}>
                           Emerging Usecases - Referral marketing on web3 and micro-mobility services such as bike rental                     </small>
             </div>
                          
@@ -397,7 +397,7 @@ class Landing extends React.Component {
                       </div>
                     </div>
                     <div className="pl-4">
-                      <h4 className="display-3 text-white">Product Suite</h4>
+                      <h4 className="display-3 text-white" style={{fontFamily:'denim-sans'}}>Product Suite</h4>
               
                     </div>
                   </div>
@@ -410,11 +410,11 @@ class Landing extends React.Component {
                           </div>
                         </div>
                         <div className="pl-4">
-                          <h5 className="title text-success">
+                          <h5 className="title text-success" style={{fontFamily:'denim-sans'}}>
                           Time based stream
                           </h5>
-                          <p>
-                          <small className="text-uppercase text-muted font-weight-bold">
+                          <p style={{fontFamily:'denim-sans'}}>
+                          <small className="text-uppercase text-muted font-weight-bold" style={{fontFamily:'denim-sans'}}>
                           Pay per usage.{" "}
             </small>
                            Deposit the funds, create stream by time duration and stop the stream once the service ends.
@@ -434,11 +434,11 @@ Industries : Salaries, consulting, subscriptions, audio/video content and live e
                           </div>
                         </div>
                         <div className="pl-4">
-                          <h5 className="title text-warning">
+                          <h5 className="title text-warning" style={{fontFamily:'denim-sans'}}>
                           Milestone based stream
                           </h5>
-                          <p>
-                          <small className="text-uppercase text-muted font-weight-bold">
+                          <p style={{fontFamily:'denim-sans'}}>
+                          <small className="text-uppercase text-muted font-weight-bold" style={{fontFamily:'denim-sans'}}>
                           Pay per milestone.{" "}
             </small>
                            This smart contract is created to cater to deliverables based freelance or consulting work where tasks can be divided in parts and micro-streams can be created for each subtask. 
@@ -475,8 +475,8 @@ Industries : Freelance and Consulting such as development, design, marketing
             <Container className="pt-lg pb-100">
               <Row className="text-center justify-content-center">
                 <Col lg="10">
-                  <h2 className="display-3 text-white">DAO Governance</h2>
-                  <p className="lead text-white">
+                  <h2 className="display-3 text-white" style={{fontFamily:'denim-sans'}}>DAO Governance</h2>
+                  <p className="lead text-white" style={{fontFamily:'denim-sans'}}>
                   StreamMoney DAO is a decentralised autonomous organisation (DAO) with a single purpose:
                   </p>
                 </Col>
@@ -486,7 +486,7 @@ Industries : Freelance and Consulting such as development, design, marketing
                   <div className="icon icon-lg icon-shape bg-gradient-white shadow rounded-circle text-primary">
                     <i className="ni ni-settings text-primary" />
                   </div>
-                  <h5 className="text-white mt-3">Build the decentralized products and blockchain infrastructure necessary to act as the financial equalizer for people and businesses worldwide.</h5>
+                  <h5 className="text-white mt-3" style={{fontFamily:'denim-sans'}}>Build the decentralized products and blockchain infrastructure necessary to act as the financial equalizer for people and businesses worldwide.</h5>
                   {/* <p className="text-white mt-3">
                     Some quick example text to build on the card title and make
                     up the bulk of the card's content.
@@ -496,14 +496,14 @@ Industries : Freelance and Consulting such as development, design, marketing
                   <div className="icon icon-lg icon-shape bg-gradient-white shadow rounded-circle text-primary">
                     <i className="ni ni-ruler-pencil text-primary" />
                   </div>
-                  <h5 className="text-white mt-3">As a PRODUCT DAO, our philosophy is Product-Quality and Community First. This way projects and people from across the DeFi space can come together to collaborate and vote to build the best products for the future of finance. Being a DAO means builders, investors, and users all have an aligned economic incentive to move MeanFi and the Mean Protocol forward while benefiting all parties fairly.</h5>
+                  <h5 className="text-white mt-3" style={{fontFamily:'denim-sans'}}>As a PRODUCT DAO, our philosophy is Product-Quality and Community First. This way projects and people from across the DeFi space can come together to collaborate and vote to build the best products for the future of finance. Being a DAO means builders, investors, and users all have an aligned economic incentive to move MeanFi and the Mean Protocol forward while benefiting all parties fairly.</h5>
                 
                 </Col>
                 <Col lg="4">
                   <div className="icon icon-lg icon-shape bg-gradient-white shadow rounded-circle text-primary">
                     <i className="ni ni-atom text-primary" />
                   </div>
-                  <h5 className="text-white mt-3">Learn More</h5>
+                  <h5 className="text-white mt-3" style={{fontFamily:'denim-sans'}}>Learn More</h5>
                   {/* <p className="text-white mt-3">
                     Some quick example text to build on the card title and make
                     up the bulk of the card's content.
