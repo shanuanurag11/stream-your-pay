@@ -102,15 +102,15 @@ class Landing extends React.Component {
          
          
             <p className="lead text-bold" style={{fontSize:'32px',marginTop:'30px',fontWeight:"bold",color:"white",fontFamily:'denim-sans'}}>
-            Payment every second/milestone              </p>
+            Payment every second              </p>
               <p className="lead " style={{fontSize:'16px',marginTop:'-5px',color:"white",fontFamily:'denim-sans'}}>
-              An implicit debt obligation is established between payer and beneficiary when payment is exchanged for their time & efforts. Such obligation carries 0 % interest and financially favors the payer. StreamMoney provides the ability to pay digitally for bits of data or services in small increments continuously over time. After one-time deposit, smart contracts starts "streaming" the money towards the payees and payees can withdraw vested money at their convenience which removes debt obligation.
+              An implicit debt obligation is established between payer and beneficiary when payment is exchanged for their time & efforts. Such obligation carries 0 % interest and financially favors the payer. StreamMoney provides the ability to pay digitally for bits of data or services in small increments continuously over time. After one-time deposit, smart contracts starts "streaming" the money towards the beneficiary and can withdraw vested money at their convenience which removes debt obligation.
               </p>
               <p className="lead text" style={{marginTop:'-5px',color:"white",fontSize:'14px',fontFamily:'denim-sans'}}>
             <small className="text-uppercase text-bold font-weight-bold" style={{fontSize:'16px',color:"white",fontFamily:'denim-sans'}}>
                Low Transaction fees - 
             </small>
-            {" "}Transaction gets confirmed in less than a second and costs as low as US$ 0.002.
+            {" "}Transaction gets confirmed in less than a second and costs as low as US$ 0.01.
               </p>
 
             <p className="lead text-bold" style={{color:"white",fontSize:'14px',fontFamily:'denim-sans'}} >
@@ -154,7 +154,7 @@ class Landing extends React.Component {
                           <Col lg="8">
                           <p className="lead text-primary" style={{marginTop:'0px',color:"black",fontSize:'14px',fontWeight:'bold',fontFamily:'denim-sans'}}>
             
-               {" "}Title one here
+               {" "}Smart Contract (Time)
               </p>
                           </Col>
                           </Row>
@@ -181,7 +181,7 @@ class Landing extends React.Component {
                           <Col lg="8">
                           <p className="lead text-success" style={{marginTop:'0px',color:"black",fontSize:'14px',fontWeight:'bold',fontFamily:'denim-sans'}}>
             
-               {" "}Streams can easily 
+               {" "}Smart Contract (Milestone) 
               </p>
                           </Col>
                           </Row>
@@ -207,7 +207,7 @@ class Landing extends React.Component {
                           <Col lg="8">
                           <p className="lead text-warning" style={{marginTop:'0px',color:"black",fontSize:'14px',fontWeight:'bold',fontFamily:'denim-sans'}}>
             
-               {" "}Streams can easily 
+               {" "}Smart Contract Features
               </p>
                           </Col>
                           </Row>
@@ -238,11 +238,11 @@ class Landing extends React.Component {
                       <Card className="card-lift--hover shadow border-0" style={{minHeight:'360px',minWidth:'220px'}}>
                         <CardBody className="py-5">
                         <h6 className="display-6 font-weight-bold" style={{fontSize:'16px'}}>
-        Step-1
+        Real time Income
                       </h6>
              <div>
-                          <small className="text-uppercase font-weight-bold text-primary" style={{fontFamily:'denim-sans'}}>
-                          Real time Income - Salaries, Gig workers. Send money to employees by minutes/days/weeks and by milestones to contractor & freelancers.    
+                          <small className="font-weight-bold" style={{fontFamily:'denim-sans'}}>
+                           Salaries, Gig workers. Send money to employees by minutes/days/weeks and by milestones to contractor & freelancers.    
             </small>
             </div>
                 
@@ -256,11 +256,11 @@ class Landing extends React.Component {
                       <Card className="card-lift--hover shadow border-0" style={{minHeight:'360px',minWidth:'220px'}}>
                         <CardBody className="py-5">
                         <h6 className="display-6 font-weight-bold" style={{fontSize:'16px'}}>
-        Step-2
+        Consumer media and subscriptions
                       </h6>
                           <div>
-                          <small className="text-uppercase text-info font-weight-bold" style={{fontFamily:'denim-sans'}}>
-                          Consumer media and subscriptions - Offer pay-per-use online services and lower your customer acquisition cost. Focused industries are content on demand (audio, video, text), Live events, Subscriptions, etc.        
+                          <small className="font-weight-bold" style={{fontFamily:'denim-sans'}}>
+                           Offer pay-per-use online services and lower your customer acquisition cost. Focused industries are content on demand (audio, video, text), Live events, Subscriptions, etc.        
             </small>
             </div>
                        
@@ -272,11 +272,11 @@ class Landing extends React.Component {
                       <Card className="card-lift--hover shadow border-0" style={{minHeight:'360px',minWidth:'220px'}}>
                         <CardBody className="py-5">
                         <h6 className="display-6 font-weight-bold" style={{fontSize:'16px'}}>
-        Step-3
+        Metaverse
                       </h6>
                           <div>
-                          <small className="text-uppercase text-danger font-weight-bold" style={{fontFamily:'denim-sans'}}>
-                          Metaverse - Digital Assets Rental, Live events, and Billboard advertising by seconds are a few use cases where StreamMoney protocol can be utilized for value transfer.              </small>
+                          <small className="font-weight-bold" style={{fontFamily:'denim-sans'}}>
+                           Digital Assets Rental, Live events, and Billboard advertising by seconds are a few use cases where StreamMoney protocol can be utilized for value transfer.              </small>
             </div>
                          
                          
@@ -287,11 +287,11 @@ class Landing extends React.Component {
                       <Card className="card-lift--hover shadow border-0" style={{minHeight:'360px',minWidth:'220px'}}>
                         <CardBody className="py-5">
                         <h6 className="display-6 font-weight-bold" style={{fontSize:'16px'}}>
-        Step-4
+        Emerging Usecases
                       </h6>
                           <div>
-                          <small className="text-uppercase text-success font-weight-bold" style={{fontFamily:'denim-sans'}}>
-                          Emerging Usecases - Referral marketing on web3 and micro-mobility services such as bike rental                     </small>
+                          <small className="font-weight-bold" style={{fontFamily:'denim-sans'}}>
+                           Referral marketing on web3 and micro-mobility services such as bike rental                     </small>
             </div>
                          
  
@@ -377,98 +377,7 @@ class Landing extends React.Component {
               </Row>
             </Container>
           </section> */}
-          <section className="section pb-0 " style={{background: 'linear-gradient(150deg, #000000 15%,#000000 50%, #923cb5 70%)' }}>
-            <Container>
-              <Row className="row-grid align-items-center">
-                <Col className="order-lg-2 ml-lg-auto" md="6">
-                  <div className="position-relative pl-md-5">
-                    <img
-                      alt="..."
-                      className="img-center img-fluid"
-                      src={require("assets/img/ill/ill-2.svg")}
-                    />
-                  </div>
-                </Col>
-                <Col className="order-lg-1" lg="6">
-                  <div className="d-flex px-3">
-                    <div>
-                      <div className="icon icon-lg icon-shape bg-gradient-white shadow rounded-circle text-primary" >
-                        <i className="ni ni-building text-primary" />
-                      </div>
-                    </div>
-                    <div className="pl-4">
-                      <h4 className="display-3 text-white" style={{fontFamily:'denim-sans'}}>Product Suite</h4>
-              
-                    </div>
-                  </div>
-                  <Card className="shadow shadow-lg--hover mt-5">
-                    <CardBody>
-                      <div className="d-flex px-3">
-                        <div>
-                          <div className="icon icon-shape bg-gradient-success rounded-circle text-white">
-                            <i className="ni ni-satisfied" />
-                          </div>
-                        </div>
-                        <div className="pl-4">
-                          <h5 className="title text-success" style={{fontFamily:'denim-sans'}}>
-                          Time based stream
-                          </h5>
-                          <p style={{fontFamily:'denim-sans'}}>
-                          <small className="text-uppercase text-muted font-weight-bold" style={{fontFamily:'denim-sans'}}>
-                          Pay per usage.{" "}
-            </small>
-                           Deposit the funds, create stream by time duration and stop the stream once the service ends.
-Industries : Salaries, consulting, subscriptions, audio/video content and live events, parking,  renting asset by time. 
-                          </p>
-                        
-                        </div>
-                      </div>
-                    </CardBody>
-                  </Card>
-                  <Card className="shadow shadow-lg--hover mt-5">
-                    <CardBody>
-                      <div className="d-flex px-3">
-                        <div>
-                          <div className="icon icon-shape bg-gradient-warning rounded-circle text-white">
-                            <i className="ni ni-active-40" />
-                          </div>
-                        </div>
-                        <div className="pl-4">
-                          <h5 className="title text-warning" style={{fontFamily:'denim-sans'}}>
-                          Milestone based stream
-                          </h5>
-                          <p style={{fontFamily:'denim-sans'}}>
-                          <small className="text-uppercase text-muted font-weight-bold" style={{fontFamily:'denim-sans'}}>
-                          Pay per milestone.{" "}
-            </small>
-                           This smart contract is created to cater to deliverables based freelance or consulting work where tasks can be divided in parts and micro-streams can be created for each subtask. 
-Industries : Freelance and Consulting such as development, design, marketing
-                          </p>
-                        
-                        </div>
-                      </div>
-                    </CardBody>
-                  </Card>
-                </Col>
-              </Row>
-            </Container>
-            {/* SVG separator */}
-            <div className="separator separator-bottom separator-skew zindex-100">
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                preserveAspectRatio="none"
-                version="1.1"
-                viewBox="0 0 2560 100"
-                x="0"
-                y="0"
-              >
-                <polygon
-                  className="fill-white"
-                  points="2560 0 2560 100 0 100"
-                />
-              </svg>
-            </div>
-          </section>
+
           
          
           <section className="section section-lg bg-gradient-default">
@@ -511,7 +420,6 @@ Industries : Freelance and Consulting such as development, design, marketing
                 </Col>
               </Row>
             </Container>
-            {/* SVG separator */}
             <div className="separator separator-bottom separator-skew zindex-100">
               <svg
                 xmlns="http://www.w3.org/2000/svg"

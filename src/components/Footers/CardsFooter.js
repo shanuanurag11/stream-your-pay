@@ -41,77 +41,13 @@ class CardsFooter extends React.Component {
               <Col md="6">
                 <div style={{  display: 'flex',
   flexDirection: 'column'}}>
-     <div>
-     <small className="text-uppercase text-muted font-weight-bold">
-                    SM Token
-              </small>
-              </div>
-      <div>
-                    
-      <small className="text-uppercase text-muted font-weight-bold">
-                    UseCases
-              </small>
-              </div>
-              <div>
-                    
-              <small className="text-uppercase text-muted font-weight-bold">
-                    UseCases
-              </small>
-              </div>
-                  <div>
-
-                  <small className="text-uppercase text-muted font-weight-bold">
-                  What is a stream ?
-            </small>
-            </div>
-            <div>
-            <small className="text-uppercase text-muted font-weight-bold">
-            Docs
-            </small>
-            </div>
-            <div>
+     
       
-            <small className="d-block text-uppercase font-weight-bold ">
-            Resources
-            </small>
-            </div>
             </div>
             </Col>
             <Col md="6">
             <div style={{  display: 'flex',
   flexDirection: 'column'}}>
-      <div>
-                  <small className="text-uppercase text-muted font-weight-bold">
-                  Linkedin
-            </small>
-            </div>  <div>
-                  <small className="text-uppercase text-muted font-weight-bold">
-                  Github
-            </small>
-            </div>  <div>
-                  <small className="text-uppercase text-muted font-weight-bold">
-                  Email
-            </small>
-            </div>  <div>
-                  <small className="text-uppercase text-muted font-weight-bold">
-                  Telegram
-            </small>
-            </div>
-                  <div>
-                  <small className="text-uppercase text-muted font-weight-bold">
-                  Twitter
-            </small>
-            </div>
-            <div>
-            <small className="text-uppercase text-muted font-weight-bold">
-            Discord
-            </small>
-            </div>
-            <div>
-            <small className="d-block text-uppercase font-weight-bold ">
-            Let’s connect!
-            </small>
-            </div>
             </div>
               </Col>
               </Row>
@@ -125,7 +61,7 @@ class CardsFooter extends React.Component {
                 <Button
                   className="btn-icon-only rounded-circle"
                   color="twitter"
-                  href="https://twitter.com/creativetim"
+                  href="https://twitter.com/StreamMoney3"
                   id="tooltip475038074"
                   target="_blank"
                 >
@@ -153,7 +89,7 @@ class CardsFooter extends React.Component {
                 <Button
                   className="btn-icon-only rounded-circle ml-1"
                  style={{backgroundColor:"blue",opacity: 0.8}}
-                  href="https://dribbble.com/creativetim"
+                  href="https://discord.gg/YBAfhHsZ"
                   id="tooltip829810202"
                   target="_blank"
                 >
