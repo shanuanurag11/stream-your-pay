@@ -378,64 +378,7 @@ class Landing extends React.Component {
             </Container>
           </section> */}
 
-          
-         
-          <section className="section section-lg bg-gradient-default">
-            <Container className="pt-lg pb-100">
-              <Row className="text-center justify-content-center">
-                <Col lg="10">
-                  <h2 className="display-3 text-white" style={{fontFamily:'denim-sans'}}>DAO Governance</h2>
-                  <p className="lead text-white" style={{fontFamily:'denim-sans'}}>
-                  StreamMoney DAO is a decentralised autonomous organisation (DAO) with a single purpose:
-                  </p>
-                </Col>
-              </Row>
-              <Row className="row-grid mt-5">
-                <Col lg="4">
-                  <div className="icon icon-lg icon-shape bg-gradient-white shadow rounded-circle text-primary">
-                    <i className="ni ni-settings text-primary" />
-                  </div>
-                  <h5 className="text-white mt-3" style={{fontFamily:'denim-sans'}}>Build the decentralized products and blockchain infrastructure necessary to act as the financial equalizer for people and businesses worldwide.</h5>
-                  {/* <p className="text-white mt-3">
-                    Some quick example text to build on the card title and make
-                    up the bulk of the card's content.
-                  </p> */}
-                </Col>
-                <Col lg="4">
-                  <div className="icon icon-lg icon-shape bg-gradient-white shadow rounded-circle text-primary">
-                    <i className="ni ni-ruler-pencil text-primary" />
-                  </div>
-                  <h5 className="text-white mt-3" style={{fontFamily:'denim-sans'}}>As a PRODUCT DAO, our philosophy is Product-Quality and Community First. This way projects and people from across the DeFi space can come together to collaborate and vote to build the best products for the future of finance. Being a DAO means builders, investors, and users all have an aligned economic incentive to move MeanFi and the Mean Protocol forward while benefiting all parties fairly.</h5>
-                
-                </Col>
-                <Col lg="4">
-                  <div className="icon icon-lg icon-shape bg-gradient-white shadow rounded-circle text-primary">
-                    <i className="ni ni-atom text-primary" />
-                  </div>
-                  <h5 className="text-white mt-3" style={{fontFamily:'denim-sans'}}>Learn More</h5>
-                  {/* <p className="text-white mt-3">
-                    Some quick example text to build on the card title and make
-                    up the bulk of the card's content.
-                  </p> */}
-                </Col>
-              </Row>
-            </Container>
-            <div className="separator separator-bottom separator-skew zindex-100">
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                preserveAspectRatio="none"
-                version="1.1"
-                viewBox="0 0 2560 100"
-                x="0"
-                y="0"
-              >
-                <polygon
-                  className="fill-white"
-                  points="2560 0 2560 100 0 100"
-                />
-              </svg>
-            </div>
-          </section>
+        
          
         </main>
         <CardsFooter />
