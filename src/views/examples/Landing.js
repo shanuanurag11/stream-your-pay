@@ -54,10 +54,10 @@ class Landing extends React.Component {
                   <Row>
                     <Col lg="12">
                       <h1 className="display-3 text-white " style={{textAlign:'center',fontFamily:'denim-sans'}}>
-                      Enabling Micro-payments with continuous money streaming protocol
+                      Transfer value real-time with Payment Streaming protocol
                       </h1>
                       <p className="lead text-white" style={{textAlign:'center',fontFamily:'denim-sans'}}>
-                      Manage salaries, recurring payouts, subscriptions, etc. and handle cashflows efficiently with real-time finance protocol
+                      Manage recurring payouts, subscriptions, digital assets rental, etc. cashflows efficiently with continous settlement protocol
                       </p>
                     
                     </Col>
@@ -102,7 +102,7 @@ class Landing extends React.Component {
          
          
             <p className="lead text-bold" style={{fontSize:'32px',marginTop:'30px',fontWeight:"bold",color:"white",fontFamily:'denim-sans'}}>
-            Payment every second/milestone              </p>
+            Payment every second              </p>
               <p className="lead " style={{fontSize:'16px',marginTop:'-5px',color:"white",fontFamily:'denim-sans'}}>
               An implicit debt obligation is established between payer and beneficiary when payment is exchanged for their time & efforts. Such obligation carries 0 % interest and financially favors the payer. StreamMoney provides the ability to pay digitally for bits of data or services in small increments continuously over time. After one-time deposit, smart contracts starts "streaming" the money towards the payees and payees can withdraw vested money at their convenience which removes debt obligation.
               </p>
@@ -110,7 +110,7 @@ class Landing extends React.Component {
             <small className="text-uppercase text-bold font-weight-bold" style={{fontSize:'16px',color:"white",fontFamily:'denim-sans'}}>
                Low Transaction fees - 
             </small>
-            {" "}Transaction gets confirmed in less than a second and costs as low as US$ 0.002.
+            {" "}Transaction gets confirmed in less than a second and costs as low as US$ 0.01.
               </p>
 
             <p className="lead text-bold" style={{color:"white",fontSize:'14px',fontFamily:'denim-sans'}} >
@@ -154,14 +154,14 @@ class Landing extends React.Component {
                           <Col lg="8">
                           <p className="lead text-primary" style={{marginTop:'0px',color:"black",fontSize:'14px',fontWeight:'bold',fontFamily:'denim-sans'}}>
             
-               {" "}Title one here
+               {" "} Real-Time Payouts
               </p>
                           </Col>
                           </Row>
                           </Col>
                         
-                          <p className="description mt-3" style={{fontFamily:'denim-sans'}}>
-                          Time-based Money streaming represents the idea of continuous payments over time. It continuously updates the balances of the parties in the contract as per the agreed-upon payment rate. The Money Stream is set up with specific conditions such as vesting schedule, rate, cliff, start time, and beneficiary, among other setup options.
+                          <p className="description mt-2" style={{fontFamily:'denim-sans'}}>
+                          It enables employment contracts to pay salaries per second, businesses to send recurring payments, and repayment of loans. It represents the idea of continuous payments over time. Interest can be earned by staking the streamed amount which is shared with both parties.
                           </p>
                 
                            
@@ -181,14 +181,14 @@ class Landing extends React.Component {
                           <Col lg="8">
                           <p className="lead text-success" style={{marginTop:'0px',color:"black",fontSize:'14px',fontWeight:'bold',fontFamily:'denim-sans'}}>
             
-               {" "}Streams can easily 
+               {" "} PayAsUse 
               </p>
                           </Col>
                           </Row>
                           </Col>
                        
-                          <p className="description mt-3" style={{fontFamily:'denim-sans'}}>
-                          Money streaming by milestone represents the idea of continuous payments whereby the agreed-upon payment is streamed to the recipient when the submitted work is approved by the stream creator. The Money Stream is set up with specific conditions such as task description, task rate, timeline, and beneficiary, among other setup options. 
+                          <p className="description mt-2" style={{fontFamily:'denim-sans'}}>
+                           It enables merchant to offer pay-per-use online services for Digital newsletters, podcasts, online classes, and music streaming, etc. Businesses can reinvent themselves by leveraging low customer acquisition costs and convert into subscriptions.
                           </p>
                          
                         </CardBody>
@@ -207,16 +207,16 @@ class Landing extends React.Component {
                           <Col lg="8">
                           <p className="lead text-warning" style={{marginTop:'0px',color:"black",fontSize:'14px',fontWeight:'bold',fontFamily:'denim-sans'}}>
             
-               {" "}Streams can easily 
+               {" "} Digital Asset Rental 
               </p>
                           </Col>
                           </Row>
                           </Col>
                          
-                          <p className="description mt-3" style={{fontFamily:'denim-sans'}}>
-                          Users can delegate streamed assets to the treasurer. Treasurer locks stream amount into epochs for certain time intervals and uses best strategies to generate returns. Returns are shared between user & beneficiary and StreamMoney takes a small commission. 
+                          <p className="description mt-2" style={{fontFamily:'denim-sans'}}>
+                          It enables digital asset owners such as 3D artists, digital real estate, live events, exhibition owners to rent digital assets for their utility without locking up capital or exposing themselves to volatility by just paying small fees. 
                           </p>
-                         
+                        
                         </CardBody>
                       </Card>
                     </Col>
@@ -226,7 +226,7 @@ class Landing extends React.Component {
             </Container>
             <h2 className="display-3" style={{textAlign:'center',marginBottom:"50px",color:'white',marginTop:'80px'}}>        Use Cases</h2>
             <p className="description mt-3" style={{textAlign: 'center',color:'white', paddingLeft: '15%',paddingRight:'15%',lineHeight:"30px",fontFamily:'denim-sans',fontSize:'19px' }}>
-                          Micropayments are especially well suited for buying digital products that can be interacted directly on the Web, including data, music, services, and software. With streaming protocol, consumers can pay five cents for a newspaper article, a dollar for a song, or ten bucks to rent Microsoft Word. 
+                          With remote work culture gaining momentum, workers are inclined to get paid by hours. Rising trends towards personalization can shift user behavior to pay as they use services. With streaming protocol, consumers can pay five cents for an article, a dollar for online classes, or ten bucks to rent Software tool. 
                           </p>
           </section>
       <section className="section section-lg pt-lg-0 " style={{background:'#04062C',marginTop:'-50px'}}>
@@ -237,12 +237,12 @@ class Landing extends React.Component {
                     <Col lg="3">
                       <Card className="card-lift--hover shadow border-0" style={{minHeight:'360px',minWidth:'220px'}}>
                         <CardBody className="py-5">
-                        <h6 className="display-6 font-weight-bold" style={{fontSize:'16px'}}>
-        Step-1
+                        <h6 className="display-6 font-weight-bold text-primary" style={{fontSize:'16px'}}>
+        Real time Income
                       </h6>
              <div>
-                          <small className="text-uppercase font-weight-bold text-primary" style={{fontFamily:'denim-sans'}}>
-                          Real time Income - Salaries, Gig workers. Send money to employees by minutes/days/weeks and by milestones to contractor & freelancers.    
+                          <small className="font-weight-bold" style={{fontFamily:'denim-sans'}}>
+                           Salaries, Gig workers. Send money to employees by minutes/days/weeks and by milestones to contractor & freelancers.    
             </small>
             </div>
                 
@@ -255,12 +255,12 @@ class Landing extends React.Component {
                     <Col lg="3">
                       <Card className="card-lift--hover shadow border-0" style={{minHeight:'360px',minWidth:'220px'}}>
                         <CardBody className="py-5">
-                        <h6 className="display-6 font-weight-bold" style={{fontSize:'16px'}}>
-        Step-2
+                        <h6 className="display-6 font-weight-bold text-info" style={{fontSize:'16px'}}>
+        Consumer media and subscriptions
                       </h6>
                           <div>
-                          <small className="text-uppercase text-info font-weight-bold" style={{fontFamily:'denim-sans'}}>
-                          Consumer media and subscriptions - Offer pay-per-use online services and lower your customer acquisition cost. Focused industries are content on demand (audio, video, text), Live events, Subscriptions, etc.        
+                          <small className="font-weight-bold" style={{fontFamily:'denim-sans'}}>
+                           Offer pay-per-use online services and lower your customer acquisition cost. Focused industries are content on demand (audio, video, text), Live events, Subscriptions, etc.        
             </small>
             </div>
                        
@@ -271,12 +271,12 @@ class Landing extends React.Component {
                     <Col lg="3">
                       <Card className="card-lift--hover shadow border-0" style={{minHeight:'360px',minWidth:'220px'}}>
                         <CardBody className="py-5">
-                        <h6 className="display-6 font-weight-bold" style={{fontSize:'16px'}}>
-        Step-3
+                        <h6 className="display-6 font-weight-bold text text-danger" style={{fontSize:'16px'}}>
+        Metaverse
                       </h6>
                           <div>
-                          <small className="text-uppercase text-danger font-weight-bold" style={{fontFamily:'denim-sans'}}>
-                          Metaverse - Digital Assets Rental, Live events, and Billboard advertising by seconds are a few use cases where StreamMoney protocol can be utilized for value transfer.              </small>
+                          <small className="font-weight-bold" style={{fontFamily:'denim-sans'}}>
+                           Digital Assets Rental by seconds, Live events tickets by time, and Billboard advertising by seconds are a few use cases where StreamMoney protocol can be utilized for value transfer.              </small>
             </div>
                          
                          
@@ -286,12 +286,12 @@ class Landing extends React.Component {
                     <Col lg="3">
                       <Card className="card-lift--hover shadow border-0" style={{minHeight:'360px',minWidth:'220px'}}>
                         <CardBody className="py-5">
-                        <h6 className="display-6 font-weight-bold" style={{fontSize:'16px'}}>
-        Step-4
+                        <h6 className="display-6 font-weight-bold text-success" style={{fontSize:'16px'}}>
+        Emerging Usecases
                       </h6>
                           <div>
-                          <small className="text-uppercase text-success font-weight-bold" style={{fontFamily:'denim-sans'}}>
-                          Emerging Usecases - Referral marketing on web3 and micro-mobility services such as bike rental                     </small>
+                          <small className="font-weight-bold" style={{fontFamily:'denim-sans'}}>
+                           Referral marketing on web3 and micro-mobility services such as bike rental                     </small>
             </div>
                          
  
@@ -377,98 +377,6 @@ class Landing extends React.Component {
               </Row>
             </Container>
           </section> */}
-          <section className="section pb-0 " style={{background: 'linear-gradient(150deg, #000000 15%,#000000 50%, #923cb5 70%)' }}>
-            <Container>
-              <Row className="row-grid align-items-center">
-                <Col className="order-lg-2 ml-lg-auto" md="6">
-                  <div className="position-relative pl-md-5">
-                    <img
-                      alt="..."
-                      className="img-center img-fluid"
-                      src={require("assets/img/ill/ill-2.svg")}
-                    />
-                  </div>
-                </Col>
-                <Col className="order-lg-1" lg="6">
-                  <div className="d-flex px-3">
-                    <div>
-                      <div className="icon icon-lg icon-shape bg-gradient-white shadow rounded-circle text-primary" >
-                        <i className="ni ni-building text-primary" />
-                      </div>
-                    </div>
-                    <div className="pl-4">
-                      <h4 className="display-3 text-white" style={{fontFamily:'denim-sans'}}>Product Suite</h4>
-              
-                    </div>
-                  </div>
-                  <Card className="shadow shadow-lg--hover mt-5">
-                    <CardBody>
-                      <div className="d-flex px-3">
-                        <div>
-                          <div className="icon icon-shape bg-gradient-success rounded-circle text-white">
-                            <i className="ni ni-satisfied" />
-                          </div>
-                        </div>
-                        <div className="pl-4">
-                          <h5 className="title text-success" style={{fontFamily:'denim-sans'}}>
-                          Time based stream
-                          </h5>
-                          <p style={{fontFamily:'denim-sans'}}>
-                          <small className="text-uppercase text-muted font-weight-bold" style={{fontFamily:'denim-sans'}}>
-                          Pay per usage.{" "}
-            </small>
-                           Deposit the funds, create stream by time duration and stop the stream once the service ends.
-Industries : Salaries, consulting, subscriptions, audio/video content and live events, parking,  renting asset by time. 
-                          </p>
-                        
-                        </div>
-                      </div>
-                    </CardBody>
-                  </Card>
-                  <Card className="shadow shadow-lg--hover mt-5">
-                    <CardBody>
-                      <div className="d-flex px-3">
-                        <div>
-                          <div className="icon icon-shape bg-gradient-warning rounded-circle text-white">
-                            <i className="ni ni-active-40" />
-                          </div>
-                        </div>
-                        <div className="pl-4">
-                          <h5 className="title text-warning" style={{fontFamily:'denim-sans'}}>
-                          Milestone based stream
-                          </h5>
-                          <p style={{fontFamily:'denim-sans'}}>
-                          <small className="text-uppercase text-muted font-weight-bold" style={{fontFamily:'denim-sans'}}>
-                          Pay per milestone.{" "}
-            </small>
-                           This smart contract is created to cater to deliverables based freelance or consulting work where tasks can be divided in parts and micro-streams can be created for each subtask. 
-Industries : Freelance and Consulting such as development, design, marketing
-                          </p>
-                        
-                        </div>
-                      </div>
-                    </CardBody>
-                  </Card>
-                </Col>
-              </Row>
-            </Container>
-            {/* SVG separator */}
-            <div className="separator separator-bottom separator-skew zindex-100">
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                preserveAspectRatio="none"
-                version="1.1"
-                viewBox="0 0 2560 100"
-                x="0"
-                y="0"
-              >
-                <polygon
-                  className="fill-white"
-                  points="2560 0 2560 100 0 100"
-                />
-              </svg>
-            </div>
-          </section>
           
          
           {/* <section className="section section-lg bg-gradient-default">

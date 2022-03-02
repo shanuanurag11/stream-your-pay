@@ -117,7 +117,7 @@ class DemoNavbar extends React.Component {
                   <NavItem>
                     <NavLink
                       className="nav-link-icon"
-                      href="https://twitter.com/StreamMoney3"
+                      href="https://twitter.com/StreamMoneyofcl"
                       id="tooltip184698705"
                       target="_blank"
                     >

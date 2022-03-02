@@ -55,7 +55,7 @@ class CardsFooter extends React.Component {
     <Button
       className="btn-icon-only rounded-circle"
       color="twitter"
-      href="https://twitter.com/StreamMoney3"
+      href="https://twitter.com/StreamMoneyofcl"
       id="tooltip475038074"
       target="_blank"
     >
